@@ -25,7 +25,7 @@ export default function ComparePage() {
 
   async function handleCompareSearch(query: string) {
     try {
-      const res = await fetch(`${BACKEND_URL}/api/validate-tech`, {
+      const res = await fetch(`${BACKEND_URL}/api/validate`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query }),

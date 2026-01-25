@@ -106,7 +106,7 @@ export default function CategoryPage() {
 
         /* ================= INVESTMENTS ================= */
         if (type === "investments") {
-          const res = await fetch(`${BACKEND_URL}/api/global-investment`)
+          const res = await fetch(`${BACKEND_URL}/api/global`)
           if (!res.ok) throw new Error("Investment API failed")
 
           const json = await res.json()
