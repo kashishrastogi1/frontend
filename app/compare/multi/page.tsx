@@ -160,7 +160,7 @@ export default function MultiComparePage() {
   /* ================= VALIDATE TECH ================= */
 
   async function handleAddTech(query: string) {
-    const res = await fetch(`${BACKEND_URL}/api/validate`, {
+    const res = await fetch(`${BACKEND_URL}/api/validate-tech`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ query }),
@@ -199,11 +199,11 @@ export default function MultiComparePage() {
     techs.forEach(async (tech) => {
       if (dataMap[tech]) return
 
-      let res = await fetch(`${BACKEND_URL}/api/technology/${tech}`)
+      let res = await fetch(`${BACKEND_URL}/api/tech/${tech}`)
 
       if (res.status === 404) {
-        await fetch(`${BACKEND_URL}/api/technology/${tech}`, { method: "POST" })
-        res = await fetch(`${BACKEND_URL}/api/technology/${tech}`)
+        await fetch(`${BACKEND_URL}/api/tech/${tech}`, { method: "POST" })
+        res = await fetch(`${BACKEND_URL}/api/tech/${tech}`)
       }
 
       if (!res.ok) return
