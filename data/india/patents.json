@@ -1,0 +1,2171 @@
+{
+  "generated_at": "2026-01-23T05:34:51.615037Z",
+  "total_patents": 119,
+  "institutes": {
+    "Indian Institute of Technology Delhi": [
+      {
+        "patent_id": "patent/US9947118B2/en",
+        "title": "Non-interferometric phase measurement",
+        "link": "https://patents.google.com/patent/US9947118B2/en",
+        "year": 2018,
+        "assignee": "Indian Institute Of Technology Delhi",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Delhi"
+      },
+      {
+        "patent_id": "patent/US9626769B2/en",
+        "title": "Digital video encoder system, method, and non-transitory computer-readable \u2026",
+        "link": "https://patents.google.com/patent/US9626769B2/en",
+        "year": 2017,
+        "assignee": "Stmicroelectronics International N.V.",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Delhi"
+      },
+      {
+        "patent_id": "patent/US8848802B2/en",
+        "title": "System and method for object based parametric video coding",
+        "link": "https://patents.google.com/patent/US8848802B2/en",
+        "year": 2014,
+        "assignee": "Stmicroelectronics International N.V.",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Delhi"
+      },
+      {
+        "patent_id": "patent/US10178396B2/en",
+        "title": "Object tracking",
+        "link": "https://patents.google.com/patent/US10178396B2/en",
+        "year": 2019,
+        "assignee": "Stmicroelectronics International N.V.",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Delhi"
+      },
+      {
+        "patent_id": "patent/US9338586B2/en",
+        "title": "Tracking and communicating with short-range communication devices",
+        "link": "https://patents.google.com/patent/US9338586B2/en",
+        "year": 2016,
+        "assignee": "Umm Al-Qura University",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Delhi"
+      },
+      {
+        "patent_id": "patent/CN111540006A/en",
+        "title": "Plant stomata intelligent detection and identification method and system based \u2026",
+        "link": "https://patents.google.com/patent/CN111540006A/en",
+        "year": 2020,
+        "assignee": "\u6cb3\u5357\u5927\u5b66",
+        "country_code": "CN",
+        "institute": "Indian Institute of Technology Delhi"
+      },
+      {
+        "patent_id": "patent/US12333776B2/en",
+        "title": "System and method for generating an optimized image with scribble-based \u2026",
+        "link": "https://patents.google.com/patent/US12333776B2/en",
+        "year": 2025,
+        "assignee": "International Institute Of Information Technology, Hyderabad",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Delhi"
+      },
+      {
+        "patent_id": "patent/JP2011142624A/en",
+        "title": "System and method of resource allocation for cancellation of crosstalk",
+        "link": "https://patents.google.com/patent/JP2011142624A/en",
+        "year": 2011,
+        "assignee": "Ikanos Technology Ltd",
+        "country_code": "JP",
+        "institute": "Indian Institute of Technology Delhi"
+      },
+      {
+        "patent_id": "patent/US20210182603A1/en",
+        "title": "Person identification and imposter detection using footfall generated seismic \u2026",
+        "link": "https://patents.google.com/patent/US20210182603A1/en",
+        "year": 2021,
+        "assignee": "Indian Institute Of Technology Delhi",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Delhi"
+      },
+      {
+        "patent_id": "patent/US9819913B2/en",
+        "title": "Image sensor device with macropixel processing and related devices and methods",
+        "link": "https://patents.google.com/patent/US9819913B2/en",
+        "year": 2017,
+        "assignee": "Stmicroelectronics International N.V.",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Delhi"
+      },
+      {
+        "patent_id": "patent/US20240224046A1/en",
+        "title": "Method and system to protect clear text transmission of user identity in \u2026",
+        "link": "https://patents.google.com/patent/US20240224046A1/en",
+        "year": 2024,
+        "assignee": "Indian Institute Of Technology Delhi",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Delhi"
+      }
+    ],
+    "Indian Institute of Technology Bombay": [
+      {
+        "patent_id": "patent/US20230108916A1/en",
+        "title": "Method and system for forecasting non-stationary time-series",
+        "link": "https://patents.google.com/patent/US20230108916A1/en",
+        "year": 2023,
+        "assignee": "Indian Institute Of Technology Bombay",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Bombay"
+      },
+      {
+        "patent_id": "patent/US8792506B2/en",
+        "title": "Inter-domain routing in an n-ary-tree and source-routing based communication \u2026",
+        "link": "https://patents.google.com/patent/US8792506B2/en",
+        "year": 2014,
+        "assignee": "Indian Institute Of Technology Bombay",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Bombay"
+      },
+      {
+        "patent_id": "patent/US11310119B2/en",
+        "title": "Using graph neural networks to create table-less routers",
+        "link": "https://patents.google.com/patent/US11310119B2/en",
+        "year": 2022,
+        "assignee": "Indian Institute Of Technology, Bombay",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Bombay"
+      },
+      {
+        "patent_id": "patent/US20230222290A1/en",
+        "title": "Active Learning for Matching Heterogeneous Entity Representations with Language \u2026",
+        "link": "https://patents.google.com/patent/US20230222290A1/en",
+        "year": 2023,
+        "assignee": "International Business Machines Corporation",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Bombay"
+      },
+      {
+        "patent_id": "patent/US8781160B2/en",
+        "title": "Image object tracking and segmentation using active contours",
+        "link": "https://patents.google.com/patent/US8781160B2/en",
+        "year": 2014,
+        "assignee": "Indian Institute Of Technology Bombay",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Bombay"
+      },
+      {
+        "patent_id": "patent/WO2016157214A1/en",
+        "title": "Intellectual property management system and tool",
+        "link": "https://patents.google.com/patent/WO2016157214A1/en",
+        "year": 2016,
+        "assignee": "Indian Institute Of Technology Bombay",
+        "country_code": "WO",
+        "institute": "Indian Institute of Technology Bombay"
+      },
+      {
+        "patent_id": "patent/US20240378600A1/en",
+        "title": "Methods and systems for formation and termination of payment channel between \u2026",
+        "link": "https://patents.google.com/patent/US20240378600A1/en",
+        "year": 2024,
+        "assignee": "Indian Institute Of Technology Bombay",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Bombay"
+      },
+      {
+        "patent_id": "patent/US9184986B2/en",
+        "title": "Method and apparatus for optimizing and scaling control plane traffic in \u2026",
+        "link": "https://patents.google.com/patent/US9184986B2/en",
+        "year": 2015,
+        "assignee": "Indian Institute Of Technology Bombay",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Bombay"
+      },
+      {
+        "patent_id": "patent/WO2024261533A9/en",
+        "title": "Identifying and quantifying probable principal ions in ion-mobility domain of \u2026",
+        "link": "https://patents.google.com/patent/WO2024261533A9/en",
+        "year": 2025,
+        "assignee": "Clarity Bio Systems India Pvt. Ltd.",
+        "country_code": "WO",
+        "institute": "Indian Institute of Technology Bombay"
+      },
+      {
+        "patent_id": "patent/WO2018002953A1/en",
+        "title": "Integrated decision support system and method for deriving inferences from data \u2026",
+        "link": "https://patents.google.com/patent/WO2018002953A1/en",
+        "year": 2018,
+        "assignee": "Indian Institute Of Technology Bombay",
+        "country_code": "WO",
+        "institute": "Indian Institute of Technology Bombay"
+      },
+      {
+        "patent_id": "patent/US8805111B2/en",
+        "title": "System and method for fusing images",
+        "link": "https://patents.google.com/patent/US8805111B2/en",
+        "year": 2014,
+        "assignee": "Indian Institute Of Technology Bombay",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Bombay"
+      },
+      {
+        "patent_id": "patent/WO2023203584A1/en",
+        "title": "Centroiding of mass scan data obtained from high-resolution mass spectrometry ( \u2026",
+        "link": "https://patents.google.com/patent/WO2023203584A1/en",
+        "year": 2023,
+        "assignee": "Clarity Bio Systems India Private Limited",
+        "country_code": "WO",
+        "institute": "Indian Institute of Technology Bombay"
+      },
+      {
+        "patent_id": "patent/US20160103164A1/en",
+        "title": "Identification of a power source in a multiple power source scenario and \u2026",
+        "link": "https://patents.google.com/patent/US20160103164A1/en",
+        "year": 2016,
+        "assignee": "Indian Institute Of Technology Bombay",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Bombay"
+      },
+      {
+        "patent_id": "patent/US6940037B1/en",
+        "title": "System and method for controlling welding parameters in welding-based \u2026",
+        "link": "https://patents.google.com/patent/US6940037B1/en",
+        "year": 2005,
+        "assignee": "Southern Methodist University",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Bombay"
+      },
+      {
+        "patent_id": "patent/US20240422663A1/en",
+        "title": "Systems and methods for relay selection in millimeter wave networks",
+        "link": "https://patents.google.com/patent/US20240422663A1/en",
+        "year": 2024,
+        "assignee": "Indian Institute of Technology - Bombay",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Bombay"
+      },
+      {
+        "patent_id": "patent/US20250220549A1/en",
+        "title": "System and method for assigning mobile relays in millimeter wave networks",
+        "link": "https://patents.google.com/patent/US20250220549A1/en",
+        "year": 2025,
+        "assignee": "Indian Institute Of Technology Bombay",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Bombay"
+      },
+      {
+        "patent_id": "patent/US20240237049A1/en",
+        "title": "System and methods for scheduling in mmwave networks",
+        "link": "https://patents.google.com/patent/US20240237049A1/en",
+        "year": 2024,
+        "assignee": "Indian Institute Of Technology Bombay",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Bombay"
+      },
+      {
+        "patent_id": "patent/WO2017203541A4/en",
+        "title": "Method for quantifying uncertainty in a system",
+        "link": "https://patents.google.com/patent/WO2017203541A4/en",
+        "year": 2018,
+        "assignee": "Indian Institute Of Technology Bombay",
+        "country_code": "WO",
+        "institute": "Indian Institute of Technology Bombay"
+      },
+      {
+        "patent_id": "patent/WO2025022464A1/en",
+        "title": "Identifying and quantifying list of probable principal ions in chromatographic \u2026",
+        "link": "https://patents.google.com/patent/WO2025022464A1/en",
+        "year": 2025,
+        "assignee": "Clarity Bio Systems India Private Limited",
+        "country_code": "WO",
+        "institute": "Indian Institute of Technology Bombay"
+      },
+      {
+        "patent_id": "patent/US11368818B2/en",
+        "title": "Methods and systems for using multi-connectivity for multicast transmissions in \u2026",
+        "link": "https://patents.google.com/patent/US11368818B2/en",
+        "year": 2022,
+        "assignee": "Indian Institute Of Technology Bombay",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Bombay"
+      },
+      {
+        "patent_id": "patent/US20250088902A1/en",
+        "title": "Systems and methods for scheduling of self-backhaul links in Millimeter wave \u2026",
+        "link": "https://patents.google.com/patent/US20250088902A1/en",
+        "year": 2025,
+        "assignee": "Indian Institute Of Technology Bombay",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Bombay"
+      }
+    ],
+    "Indian Institute of Technology Madras": [
+      {
+        "patent_id": "patent/US12273933B2/en",
+        "title": "Method and system for resource allocation and timing alignment in integrated \u2026",
+        "link": "https://patents.google.com/patent/US12273933B2/en",
+        "year": 2025,
+        "assignee": "Centre Of Excellence In Wireless Technology",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Madras"
+      },
+      {
+        "patent_id": "patent/US11696317B2/en",
+        "title": "Signaling methods to alter the number of control channel blind decodings in \u2026",
+        "link": "https://patents.google.com/patent/US11696317B2/en",
+        "year": 2023,
+        "assignee": "Centre Of Excellence In Wireless Technology",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Madras"
+      },
+      {
+        "patent_id": "patent/US8660825B2/en",
+        "title": "Methods and systems for modeling a physical object",
+        "link": "https://patents.google.com/patent/US8660825B2/en",
+        "year": 2014,
+        "assignee": "Indian Institute Of Technology Madras",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Madras"
+      },
+      {
+        "patent_id": "patent/US11659482B2/en",
+        "title": "Method of signalling in an integrated access and backhaul network",
+        "link": "https://patents.google.com/patent/US11659482B2/en",
+        "year": 2023,
+        "assignee": "Centre of Excellence in Wireless Technology and",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Madras"
+      },
+      {
+        "patent_id": "patent/US20250106826A1/en",
+        "title": "Implementation of sub-band full duplexing in a cellular network",
+        "link": "https://patents.google.com/patent/US20250106826A1/en",
+        "year": 2025,
+        "assignee": "Centre Of Excellence In Wireless Technology",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Madras"
+      },
+      {
+        "patent_id": "patent/WO2019166400A1/en",
+        "title": "Method for minimizing thermoacoustic instabilities of a gas turbine",
+        "link": "https://patents.google.com/patent/WO2019166400A1/en",
+        "year": 2019,
+        "assignee": "Potsdam-Institut F\u00fcr Klimafolgenforschung E.V.",
+        "country_code": "WO",
+        "institute": "Indian Institute of Technology Madras"
+      },
+      {
+        "patent_id": "patent/US20120052513A1/en",
+        "title": "Gold sub-nanoclusters and uses thereof",
+        "link": "https://patents.google.com/patent/US20120052513A1/en",
+        "year": 2012,
+        "assignee": "Pradeep Thalappil",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Madras"
+      },
+      {
+        "patent_id": "patent/US12025528B2/en",
+        "title": "Device and method to predict the onset of oscillatory instabilities in systems \u2026",
+        "link": "https://patents.google.com/patent/US12025528B2/en",
+        "year": 2024,
+        "assignee": "INDIAN INSTITUTE OF TECHNOLOGY MADRAS (IIT Madras)",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Madras"
+      },
+      {
+        "patent_id": "patent/US20240242131A1/en",
+        "title": "System and method for data classification",
+        "link": "https://patents.google.com/patent/US20240242131A1/en",
+        "year": 2024,
+        "assignee": "INDIAN INSTITUTE OF TECHNOLOGY MADRAS (IIT Madras)",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Madras"
+      },
+      {
+        "patent_id": "patent/US20160173208A1/en",
+        "title": "Interference management for a distributed spatial network",
+        "link": "https://patents.google.com/patent/US20160173208A1/en",
+        "year": 2016,
+        "assignee": "Centre Of Excellence In Wireless Technology",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Madras"
+      },
+      {
+        "patent_id": "patent/US20250168763A1/en",
+        "title": "Methods for energy saving in a cellular network",
+        "link": "https://patents.google.com/patent/US20250168763A1/en",
+        "year": 2025,
+        "assignee": "Centre Of Excellence In Wireless Technology",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Madras"
+      },
+      {
+        "patent_id": "patent/WO2024189650A1/en",
+        "title": "A system and method for secure management of electronic health and medical \u2026",
+        "link": "https://patents.google.com/patent/WO2024189650A1/en",
+        "year": 2024,
+        "assignee": "INDIAN INSTITUTE OF TECHNOLOGY MADRAS (IIT Madras)",
+        "country_code": "WO",
+        "institute": "Indian Institute of Technology Madras"
+      },
+      {
+        "patent_id": "patent/WO2022224266A1/en",
+        "title": "A method for consensus prioritization of regression test-cases supported by \u2026",
+        "link": "https://patents.google.com/patent/WO2022224266A1/en",
+        "year": 2022,
+        "assignee": "INDIAN INSTITUTE OF TECHNOLOGY MADRAS (IIT Madras)",
+        "country_code": "WO",
+        "institute": "Indian Institute of Technology Madras"
+      },
+      {
+        "patent_id": "patent/WO2025150059A1/en",
+        "title": "Smart meter based energy hubs performing energy interoperability to improve \u2026",
+        "link": "https://patents.google.com/patent/WO2025150059A1/en",
+        "year": 2025,
+        "assignee": "INDIAN INSTITUTE OF TECHNOLOGY MADRAS (IIT Madras)",
+        "country_code": "WO",
+        "institute": "Indian Institute of Technology Madras"
+      },
+      {
+        "patent_id": "patent/WO2025173039A2/en",
+        "title": "System and method for reconstruction of 3-dimensional anatomy",
+        "link": "https://patents.google.com/patent/WO2025173039A2/en",
+        "year": 2025,
+        "assignee": "INDIAN INSTITUTE OF TECHNOLOGY MADRAS (IIT Madras)",
+        "country_code": "WO",
+        "institute": "Indian Institute of Technology Madras"
+      },
+      {
+        "patent_id": "patent/US20250150235A1/en",
+        "title": "Method and system for sidelink positioning protocol data unit configurations, \u2026",
+        "link": "https://patents.google.com/patent/US20250150235A1/en",
+        "year": 2025,
+        "assignee": "Centre Of Excellence In Wireless Technology",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Madras"
+      },
+      {
+        "patent_id": "patent/WO2024018480A1/en",
+        "title": "A method of beamforming for mitigating interference between nodes of a wireless \u2026",
+        "link": "https://patents.google.com/patent/WO2024018480A1/en",
+        "year": 2024,
+        "assignee": "Centre Of Excellence In Wireless Technology",
+        "country_code": "WO",
+        "institute": "Indian Institute of Technology Madras"
+      },
+      {
+        "patent_id": "patent/WO2025262712A1/en",
+        "title": "System and method for atmospheric observations",
+        "link": "https://patents.google.com/patent/WO2025262712A1/en",
+        "year": 2025,
+        "assignee": "INDIAN INSTITUTE OF TECHNOLOGY MADRAS (IIT Madras)",
+        "country_code": "WO",
+        "institute": "Indian Institute of Technology Madras"
+      },
+      {
+        "patent_id": "patent/WO2025233972A1/en",
+        "title": "A route planning method for the operation of autonomous mobile objects and a \u2026",
+        "link": "https://patents.google.com/patent/WO2025233972A1/en",
+        "year": 2025,
+        "assignee": "INDIAN INSTITUTE OF TECHNOLOGY MADRAS (IIT Madras)",
+        "country_code": "WO",
+        "institute": "Indian Institute of Technology Madras"
+      },
+      {
+        "patent_id": "patent/WO2025196838A1/en",
+        "title": "METHODS AND SYSTEMS FOR BEAM MANAGEMENT FOR AMBIENT IoT READER",
+        "link": "https://patents.google.com/patent/WO2025196838A1/en",
+        "year": 2025,
+        "assignee": "Centre Of Excellence In Wireless Technology",
+        "country_code": "WO",
+        "institute": "Indian Institute of Technology Madras"
+      },
+      {
+        "patent_id": "patent/WO2024105692A1/en",
+        "title": "Exhaled breath based user authentication and diagnosis",
+        "link": "https://patents.google.com/patent/WO2024105692A1/en",
+        "year": 2024,
+        "assignee": "INDIAN INSTITUTE OF TECHNOLOGY MADRAS (IIT Madras)",
+        "country_code": "WO",
+        "institute": "Indian Institute of Technology Madras"
+      },
+      {
+        "patent_id": "patent/FR2930695A1/en",
+        "title": "CELL RADIOCOMMUNICATION METHOD USING PUSC SEGMENTATION TECHNIQUE",
+        "link": "https://patents.google.com/patent/FR2930695A1/en",
+        "year": 2009,
+        "assignee": "Alcatel Lucent Sas",
+        "country_code": "FR",
+        "institute": "Indian Institute of Technology Madras"
+      }
+    ],
+    "Indian Institute of Technology Kanpur": [
+      {
+        "patent_id": "patent/DE102022211605A1/en",
+        "title": "RELIABILITY IMPROVEMENTS FOR MULTIPLE ACCESS TRAFFIC MANAGEMENT",
+        "link": "https://patents.google.com/patent/DE102022211605A1/en",
+        "year": 2023,
+        "assignee": "Intel Corporation",
+        "country_code": "DE",
+        "institute": "Indian Institute of Technology Kanpur"
+      },
+      {
+        "patent_id": "patent/AU2011261169B2/en",
+        "title": "Optimising objectives of a plant and a carbon dioxide capture facility",
+        "link": "https://patents.google.com/patent/AU2011261169B2/en",
+        "year": 2017,
+        "assignee": "Kc8 Capture Technologies Ltd",
+        "country_code": "AU",
+        "institute": "Indian Institute of Technology Kanpur"
+      },
+      {
+        "patent_id": "patent/US20140344319A1/en",
+        "title": "Algorithm for primality testing based on infinite, symmetric, convergent, \u2026",
+        "link": "https://patents.google.com/patent/US20140344319A1/en",
+        "year": 2014,
+        "assignee": "Daljit Singh Jandu",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Kanpur"
+      },
+      {
+        "patent_id": "patent/CN100454314C/en",
+        "title": "Multipurpose optimization device, multipurpose optimization method and \u2026",
+        "link": "https://patents.google.com/patent/CN100454314C/en",
+        "year": 2009,
+        "assignee": "\u96c5\u9a6c\u54c8\u53d1\u52a8\u673a\u682a\u5f0f\u4f1a\u793e",
+        "country_code": "CN",
+        "institute": "Indian Institute of Technology Kanpur"
+      },
+      {
+        "patent_id": "patent/WO2022130308A1/en",
+        "title": "Techniques for cancer determination",
+        "link": "https://patents.google.com/patent/WO2022130308A1/en",
+        "year": 2022,
+        "assignee": "Indian Institute Of Technology Kanpur",
+        "country_code": "WO",
+        "institute": "Indian Institute of Technology Kanpur"
+      }
+    ],
+    "Indian Institute of Technology Kharagpur": [
+      {
+        "patent_id": "patent/US12231278B2/en",
+        "title": "System and method for spectrally efficient pilot and detector design in delay- \u2026",
+        "link": "https://patents.google.com/patent/US12231278B2/en",
+        "year": 2025,
+        "assignee": "The Indian Institute Of Technology Kharagpur",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Kharagpur"
+      }
+    ],
+    "Indian Institute of Technology Roorkee": [
+      {
+        "patent_id": "patent/WO2024243685A1/en",
+        "title": "Generating interactive and immersive virtual and augmented reality environments \u2026",
+        "link": "https://patents.google.com/patent/WO2024243685A1/en",
+        "year": 2024,
+        "assignee": "Meta Live Inc.",
+        "country_code": "WO",
+        "institute": "Indian Institute of Technology Roorkee"
+      },
+      {
+        "patent_id": "patent/US20250350573A1/en",
+        "title": "Techniques for a self-learning scalable event broker",
+        "link": "https://patents.google.com/patent/US20250350573A1/en",
+        "year": 2025,
+        "assignee": "Oracle International Corporation",
+        "country_code": "US",
+        "institute": "Indian Institute of Technology Roorkee"
+      }
+    ],
+    "Indian Institute of Science Bangalore": [
+      {
+        "patent_id": "patent/US8447846B2/en",
+        "title": "Using unique local unicast addresses in a global domain name server by \u2026",
+        "link": "https://patents.google.com/patent/US8447846B2/en",
+        "year": 2013,
+        "assignee": "International Business Machines Corporation",
+        "country_code": "US",
+        "institute": "Indian Institute of Science Bangalore"
+      },
+      {
+        "patent_id": "patent/US20080234135A1/en",
+        "title": "Ligand identification and matching software tools",
+        "link": "https://patents.google.com/patent/US20080234135A1/en",
+        "year": 2008,
+        "assignee": "Infosys Technologies Ltd. and Indian Institute of Science, Bangalore",
+        "country_code": "US",
+        "institute": "Indian Institute of Science Bangalore"
+      },
+      {
+        "patent_id": "patent/US20120036179A1/en",
+        "title": "Using Unique Local Unicast Addresses in a Global Domain Name Server",
+        "link": "https://patents.google.com/patent/US20120036179A1/en",
+        "year": 2012,
+        "assignee": "International Business Machines Corporation",
+        "country_code": "US",
+        "institute": "Indian Institute of Science Bangalore"
+      },
+      {
+        "patent_id": "patent/US20130338225A1/en",
+        "title": "Compounds As L-Cystine Crystallization Inhibitors And Uses Thereof",
+        "link": "https://patents.google.com/patent/US20130338225A1/en",
+        "year": 2013,
+        "assignee": "New York University",
+        "country_code": "US",
+        "institute": "Indian Institute of Science Bangalore"
+      },
+      {
+        "patent_id": "patent/SI26055A/en",
+        "title": "Nano-micellar pharmaceutical synergetic composition with antioxidant, anti- \u2026",
+        "link": "https://patents.google.com/patent/SI26055A/en",
+        "year": 2022,
+        "assignee": "MGC Pharma Ltd.",
+        "country_code": "SI",
+        "institute": "Indian Institute of Science Bangalore"
+      },
+      {
+        "patent_id": "patent/EP1658385A1/en",
+        "title": "Prediction of cavity size in the packed bed systems using new correlations and \u2026",
+        "link": "https://patents.google.com/patent/EP1658385A1/en",
+        "year": 2006,
+        "assignee": "Council of Scientific and Industrial Research",
+        "country_code": "EP",
+        "institute": "Indian Institute of Science Bangalore"
+      }
+    ],
+    "Council of Scientific and Industrial Research": [
+      {
+        "patent_id": "patent/US8557754B2/en",
+        "title": "Composition of biodegradable gear oil",
+        "link": "https://patents.google.com/patent/US8557754B2/en",
+        "year": 2013,
+        "assignee": "Counsel Of Scientific &amp; Industrial Research",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US7582653B2/en",
+        "title": "Mercaptophenyl naphthyl methane compounds and synthesis thereof",
+        "link": "https://patents.google.com/patent/US7582653B2/en",
+        "year": 2009,
+        "assignee": "Council Of Scientific &amp; Industrial Research",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/CN101815466B/en",
+        "title": "A non-invasive device NADI TARANGINI useful for quantitative detection of \u2026",
+        "link": "https://patents.google.com/patent/CN101815466B/en",
+        "year": 2014,
+        "assignee": "\u79d1\u5b66\u4e0e\u5de5\u4e1a\u7814\u7a76\u59d4\u5458\u4f1a",
+        "country_code": "CN",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/CN103582427A/en",
+        "title": "Bakery product with improved flavour properties",
+        "link": "https://patents.google.com/patent/CN103582427A/en",
+        "year": 2014,
+        "assignee": "\u96c0\u5de2\u4ea7\u54c1\u6280\u672f\u63f4\u52a9\u6709\u9650\u516c\u53f8",
+        "country_code": "CN",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US20160242450A1/en",
+        "title": "Functional-gel Compositions and Methods",
+        "link": "https://patents.google.com/patent/US20160242450A1/en",
+        "year": 2016,
+        "assignee": "Rey Magana",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US10216910B2/en",
+        "title": "Simulated carbon and proton NMR chemical shifts based binary fingerprints for \u2026",
+        "link": "https://patents.google.com/patent/US10216910B2/en",
+        "year": 2019,
+        "assignee": "Council Of Scientific &amp; Industrial Research",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US20240196749A1/en",
+        "title": "Process for the Fabrication of Zn-O Graphene Based Flexible Strain and Pressure \u2026",
+        "link": "https://patents.google.com/patent/US20240196749A1/en",
+        "year": 2024,
+        "assignee": "Council Of Scientific And Industrial Research",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US20120012177A1/en",
+        "title": "HIGH EFFICIENT DYE-SENSITIZED SOLAR CELLS USING TiO2-MULTIWALLED CARBON NANO \u2026",
+        "link": "https://patents.google.com/patent/US20120012177A1/en",
+        "year": 2012,
+        "assignee": "Subas Kumar Muduli",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/CN107206033A/en",
+        "title": "Use bacillus coagulans SBC37 01, the method for the therapeutic treatment \u2026",
+        "link": "https://patents.google.com/patent/CN107206033A/en",
+        "year": 2017,
+        "assignee": "\u8428\u7c73\u83b1\u5e03\u65af\u6709\u9650\u516c\u53f8",
+        "country_code": "CN",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/CN102016627A/en",
+        "title": "A wireless information and safety system for mines",
+        "link": "https://patents.google.com/patent/CN102016627A/en",
+        "year": 2011,
+        "assignee": "\u79d1\u5b66\u4e0e\u5de5\u4e1a\u7814\u7a76\u59d4\u5458\u4f1a",
+        "country_code": "CN",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US20110059913A1/en",
+        "title": "Compositions and methods for the treatment of gastrointestinal indications",
+        "link": "https://patents.google.com/patent/US20110059913A1/en",
+        "year": 2011,
+        "assignee": "Council Of Scientific And Industrial Research",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US12226462B2/en",
+        "title": "Fibrinolytic composition and method of its preparation",
+        "link": "https://patents.google.com/patent/US12226462B2/en",
+        "year": 2025,
+        "assignee": "Council Of Scientific &amp; Industrial Research",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/EP1986670A2/en",
+        "title": "Intestinal alpha-glucosidase inhibitors and a process for the isolation and use \u2026",
+        "link": "https://patents.google.com/patent/EP1986670A2/en",
+        "year": 2008,
+        "assignee": "Council of Scientific and Industrial Research",
+        "country_code": "EP",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US20120252898A1/en",
+        "title": "Method of producing a stabilized naturally occuring hydroxycitric acid (hca) \u2026",
+        "link": "https://patents.google.com/patent/US20120252898A1/en",
+        "year": 2012,
+        "assignee": "Sevanti Mehta",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/CN101568551A/en",
+        "title": "A recombinant meso-active thermo-stable protein and the process of design and \u2026",
+        "link": "https://patents.google.com/patent/CN101568551A/en",
+        "year": 2009,
+        "assignee": "\u79d1\u5b66\u4e0e\u5de5\u4e1a\u7814\u7a76\u59d4\u5458\u4f1a",
+        "country_code": "CN",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US8973015B2/en",
+        "title": "Information processing device, system, control method, and program",
+        "link": "https://patents.google.com/patent/US8973015B2/en",
+        "year": 2015,
+        "assignee": "Nec Corporation",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US20120245357A1/en",
+        "title": "Alr2 inhibitors and their synthesis from a natural source",
+        "link": "https://patents.google.com/patent/US20120245357A1/en",
+        "year": 2012,
+        "assignee": "Council Of Scientific &amp; Industrial Research",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US10722462B2/en",
+        "title": "Discontinuous reverse micellar composition in cubic FD3M phase for sustained \u2026",
+        "link": "https://patents.google.com/patent/US10722462B2/en",
+        "year": 2020,
+        "assignee": "Council Of Scientific And Industrial Research",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/CN101395272A/en",
+        "title": "Method for obtaining tissue proteome library",
+        "link": "https://patents.google.com/patent/CN101395272A/en",
+        "year": 2009,
+        "assignee": "\u79d1\u5b66\u4e0e\u5de5\u4e1a\u7814\u7a76\u4f1a",
+        "country_code": "CN",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/CN109312379A/en",
+        "title": "Multifunctional recombinant nucleotide-dependent glycosyltransferase proteins \u2026",
+        "link": "https://patents.google.com/patent/CN109312379A/en",
+        "year": 2019,
+        "assignee": "\u79d1\u5b66\u4e0e\u5de5\u4e1a\u7814\u7a76\u59d4\u5458\u4f1a",
+        "country_code": "CN",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/EP3011473A1/en",
+        "title": "Topic based classification of documents",
+        "link": "https://patents.google.com/patent/EP3011473A1/en",
+        "year": 2016,
+        "assignee": "Hewlett-Packard Development Company, L.P.",
+        "country_code": "EP",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US5409703A/en",
+        "title": "Dried hydrogel from hydrophilic-hygroscopic polymer",
+        "link": "https://patents.google.com/patent/US5409703A/en",
+        "year": 1995,
+        "assignee": "Carrington Laboratories, Inc.",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US5703060A/en",
+        "title": "Uses of aloe products in the prevention and treatment of infections and \u2026",
+        "link": "https://patents.google.com/patent/US5703060A/en",
+        "year": 1997,
+        "assignee": "Carrington Laboratories Inc.",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US5106616A/en",
+        "title": "Administration of acemannan",
+        "link": "https://patents.google.com/patent/US5106616A/en",
+        "year": 1992,
+        "assignee": "Carrington Laboratories, Inc.",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/JP4927309B2/en",
+        "title": "Universal primers for wildlife identification",
+        "link": "https://patents.google.com/patent/JP4927309B2/en",
+        "year": 2012,
+        "assignee": "\u30ab\u30a6\u30f3\u30b9\u30a3\u30eb \u30aa\u30d6 \u30b5\u30a4\u30a8\u30f3\u30c6\u30a3\u30d5\u30a3\u30c3\u30af \u30a2\u30f3\u30c9 \u30a4\u30f3\u30c0\u30b9\u30c8\u30ea\u30a2\u30eb \u30ea\u30b5\u30fc\u30c1",
+        "country_code": "JP",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US2803129A/en",
+        "title": "Apparatus for testing of elastic materials",
+        "link": "https://patents.google.com/patent/US2803129A/en",
+        "year": 1957,
+        "assignee": "Council Scient Ind Res",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US5118673A/en",
+        "title": "Uses of aloe products",
+        "link": "https://patents.google.com/patent/US5118673A/en",
+        "year": 1992,
+        "assignee": "Carrington Laboratories, Inc.",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/EP1690207B1/en",
+        "title": "A computer based versatile method for identifying protein coding dna sequences \u2026",
+        "link": "https://patents.google.com/patent/EP1690207B1/en",
+        "year": 2010,
+        "assignee": "Council of Scientific and Industrial Research",
+        "country_code": "EP",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US3775286A/en",
+        "title": "Hydrogenation of coal",
+        "link": "https://patents.google.com/patent/US3775286A/en",
+        "year": 1973,
+        "assignee": "Council Scient Ind Res",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US20040193698A1/en",
+        "title": "Method for finding convergence of ranking of web page",
+        "link": "https://patents.google.com/patent/US20040193698A1/en",
+        "year": 2004,
+        "assignee": "Sadasivuni Lakshminarayana",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US3917599A/en",
+        "title": "2-Substituted-1,2,3,4,6,7,12,12A-octahydropyrazino(2{40 ,1{40 :6,1)pyrido(3,4-B \u2026",
+        "link": "https://patents.google.com/patent/US3917599A/en",
+        "year": 1975,
+        "assignee": "Council Scient Ind Res",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/WO2024018479A1/en",
+        "title": "A process of glass melting in microwave heating using metallic crucible made up \u2026",
+        "link": "https://patents.google.com/patent/WO2024018479A1/en",
+        "year": 2024,
+        "assignee": "Council Of Scientific &amp; Industrial Research",
+        "country_code": "WO",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/WO2025224758A1/en",
+        "title": "Composite scaffold for cartilage regeneration and its process thereof",
+        "link": "https://patents.google.com/patent/WO2025224758A1/en",
+        "year": 2025,
+        "assignee": "Council Of Scientific &amp; Industrial Research",
+        "country_code": "WO",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US3613798A/en",
+        "title": "Hydraulic control system for agricultural implements",
+        "link": "https://patents.google.com/patent/US3613798A/en",
+        "year": 1971,
+        "assignee": "Council Scient Ind Res",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US3821303A/en",
+        "title": "Improvements in or relating to the manufacture of cyclohexanone oximefrom \u2026",
+        "link": "https://patents.google.com/patent/US3821303A/en",
+        "year": 1974,
+        "assignee": "Council Scient Ind Res",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US3344636A/en",
+        "title": "Extrusion of metals",
+        "link": "https://patents.google.com/patent/US3344636A/en",
+        "year": 1967,
+        "assignee": "Council Scient Ind Res",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US20040121027A1/en",
+        "title": "Herbal composition for cuts, burns and wounds",
+        "link": "https://patents.google.com/patent/US20040121027A1/en",
+        "year": 2004,
+        "assignee": "Council Of Scientific And Industrial Research",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US3909369A/en",
+        "title": "Method for the production of an electrode for cathodic protection",
+        "link": "https://patents.google.com/patent/US3909369A/en",
+        "year": 1975,
+        "assignee": "Council Scient Ind Res",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US3346401A/en",
+        "title": "Processing of raw intestines",
+        "link": "https://patents.google.com/patent/US3346401A/en",
+        "year": 1967,
+        "assignee": "Council Scient Ind Res",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/EP1438120A1/en",
+        "title": "Biological filter for the purification of waste gases",
+        "link": "https://patents.google.com/patent/EP1438120A1/en",
+        "year": 2004,
+        "assignee": "Council of Scientific and Industrial Research",
+        "country_code": "EP",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US3392240A/en",
+        "title": "Acoustic systems",
+        "link": "https://patents.google.com/patent/US3392240A/en",
+        "year": 1968,
+        "assignee": "Council Scient Ind Res",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US3116026A/en",
+        "title": "Dirigible lamp assembly for vehicles",
+        "link": "https://patents.google.com/patent/US3116026A/en",
+        "year": 1963,
+        "assignee": "Council Scient Ind Res",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US3051737A/en",
+        "title": "Preparation and use of catalysts",
+        "link": "https://patents.google.com/patent/US3051737A/en",
+        "year": 1962,
+        "assignee": "Council Scient Ind Res",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US7435877B2/en",
+        "title": "Distinct type cultivar of Ocimum basilicum\u201cCIM-SAUMYA\u201d",
+        "link": "https://patents.google.com/patent/US7435877B2/en",
+        "year": 2008,
+        "assignee": "Council Of Scientific &amp; Industrial Research",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US5468737A/en",
+        "title": "Wound healing accelerated by systemic administration of polysaccharide from \u2026",
+        "link": "https://patents.google.com/patent/US5468737A/en",
+        "year": 1995,
+        "assignee": "Carrington Laboratories, Inc.",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/EP0611304B1/en",
+        "title": "Use of acetylated mannan (acemannan) for the regulation of blood cholesterol \u2026",
+        "link": "https://patents.google.com/patent/EP0611304B1/en",
+        "year": 1999,
+        "assignee": "Carrington Laboratories, Inc.",
+        "country_code": "EP",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/EP0965346A2/en",
+        "title": "Use of acetylated mannan derivatives for treating chronic respiratory diseases",
+        "link": "https://patents.google.com/patent/EP0965346A2/en",
+        "year": 1999,
+        "assignee": "Carrington Laboratories, Inc.",
+        "country_code": "EP",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/WO1993008810A1/en",
+        "title": "Uses of aloe products, e.g. acemannan, in the treatment of diseases requiring \u2026",
+        "link": "https://patents.google.com/patent/WO1993008810A1/en",
+        "year": 1993,
+        "assignee": "Carrington Laboratories, Inc.",
+        "country_code": "WO",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/US2819946A/en",
+        "title": "Preparation of titanium tetraiodide",
+        "link": "https://patents.google.com/patent/US2819946A/en",
+        "year": 1958,
+        "assignee": "Council Scient Ind Res",
+        "country_code": "US",
+        "institute": "Council of Scientific and Industrial Research"
+      },
+      {
+        "patent_id": "patent/KR100209180B1/en",
+        "title": "Pharmaceutical composition containing acemannan",
+        "link": "https://patents.google.com/patent/KR100209180B1/en",
+        "year": 1999,
+        "assignee": "\uce90\ub9c1\ud134 \ub77c\ubcf4\ub77c\ud1a0\ub9ac\uc988\uc778\ucf54\ud3ec\ub808\uc774\ud2f0\ub4dc",
+        "country_code": "KR",
+        "institute": "Council of Scientific and Industrial Research"
+      }
+    ],
+    "Defence Research and Development Organisation": [],
+    "Indian Space Research Organisation": [
+      {
+        "patent_id": "patent/WO2010125236A1/en",
+        "title": "Method and apparatus of collecting data for agricultural analysis",
+        "link": "https://patents.google.com/patent/WO2010125236A1/en",
+        "year": 2010,
+        "assignee": "Nokia Corporation",
+        "country_code": "WO",
+        "institute": "Indian Space Research Organisation"
+      }
+    ],
+    "Bhabha Atomic Research Centre": [],
+    "All India Institute of Medical Sciences": []
+  },
+  "patents": [
+    {
+      "patent_id": "patent/US9947118B2/en",
+      "title": "Non-interferometric phase measurement",
+      "link": "https://patents.google.com/patent/US9947118B2/en",
+      "year": 2018,
+      "assignee": "Indian Institute Of Technology Delhi",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Delhi"
+    },
+    {
+      "patent_id": "patent/US9626769B2/en",
+      "title": "Digital video encoder system, method, and non-transitory computer-readable \u2026",
+      "link": "https://patents.google.com/patent/US9626769B2/en",
+      "year": 2017,
+      "assignee": "Stmicroelectronics International N.V.",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Delhi"
+    },
+    {
+      "patent_id": "patent/US8848802B2/en",
+      "title": "System and method for object based parametric video coding",
+      "link": "https://patents.google.com/patent/US8848802B2/en",
+      "year": 2014,
+      "assignee": "Stmicroelectronics International N.V.",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Delhi"
+    },
+    {
+      "patent_id": "patent/US10178396B2/en",
+      "title": "Object tracking",
+      "link": "https://patents.google.com/patent/US10178396B2/en",
+      "year": 2019,
+      "assignee": "Stmicroelectronics International N.V.",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Delhi"
+    },
+    {
+      "patent_id": "patent/US9338586B2/en",
+      "title": "Tracking and communicating with short-range communication devices",
+      "link": "https://patents.google.com/patent/US9338586B2/en",
+      "year": 2016,
+      "assignee": "Umm Al-Qura University",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Delhi"
+    },
+    {
+      "patent_id": "patent/CN111540006A/en",
+      "title": "Plant stomata intelligent detection and identification method and system based \u2026",
+      "link": "https://patents.google.com/patent/CN111540006A/en",
+      "year": 2020,
+      "assignee": "\u6cb3\u5357\u5927\u5b66",
+      "country_code": "CN",
+      "institute": "Indian Institute of Technology Delhi"
+    },
+    {
+      "patent_id": "patent/US12333776B2/en",
+      "title": "System and method for generating an optimized image with scribble-based \u2026",
+      "link": "https://patents.google.com/patent/US12333776B2/en",
+      "year": 2025,
+      "assignee": "International Institute Of Information Technology, Hyderabad",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Delhi"
+    },
+    {
+      "patent_id": "patent/JP2011142624A/en",
+      "title": "System and method of resource allocation for cancellation of crosstalk",
+      "link": "https://patents.google.com/patent/JP2011142624A/en",
+      "year": 2011,
+      "assignee": "Ikanos Technology Ltd",
+      "country_code": "JP",
+      "institute": "Indian Institute of Technology Delhi"
+    },
+    {
+      "patent_id": "patent/US20210182603A1/en",
+      "title": "Person identification and imposter detection using footfall generated seismic \u2026",
+      "link": "https://patents.google.com/patent/US20210182603A1/en",
+      "year": 2021,
+      "assignee": "Indian Institute Of Technology Delhi",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Delhi"
+    },
+    {
+      "patent_id": "patent/US9819913B2/en",
+      "title": "Image sensor device with macropixel processing and related devices and methods",
+      "link": "https://patents.google.com/patent/US9819913B2/en",
+      "year": 2017,
+      "assignee": "Stmicroelectronics International N.V.",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Delhi"
+    },
+    {
+      "patent_id": "patent/US20240224046A1/en",
+      "title": "Method and system to protect clear text transmission of user identity in \u2026",
+      "link": "https://patents.google.com/patent/US20240224046A1/en",
+      "year": 2024,
+      "assignee": "Indian Institute Of Technology Delhi",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Delhi"
+    },
+    {
+      "patent_id": "patent/US20230108916A1/en",
+      "title": "Method and system for forecasting non-stationary time-series",
+      "link": "https://patents.google.com/patent/US20230108916A1/en",
+      "year": 2023,
+      "assignee": "Indian Institute Of Technology Bombay",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Bombay"
+    },
+    {
+      "patent_id": "patent/US8792506B2/en",
+      "title": "Inter-domain routing in an n-ary-tree and source-routing based communication \u2026",
+      "link": "https://patents.google.com/patent/US8792506B2/en",
+      "year": 2014,
+      "assignee": "Indian Institute Of Technology Bombay",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Bombay"
+    },
+    {
+      "patent_id": "patent/US11310119B2/en",
+      "title": "Using graph neural networks to create table-less routers",
+      "link": "https://patents.google.com/patent/US11310119B2/en",
+      "year": 2022,
+      "assignee": "Indian Institute Of Technology, Bombay",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Bombay"
+    },
+    {
+      "patent_id": "patent/US20230222290A1/en",
+      "title": "Active Learning for Matching Heterogeneous Entity Representations with Language \u2026",
+      "link": "https://patents.google.com/patent/US20230222290A1/en",
+      "year": 2023,
+      "assignee": "International Business Machines Corporation",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Bombay"
+    },
+    {
+      "patent_id": "patent/US8781160B2/en",
+      "title": "Image object tracking and segmentation using active contours",
+      "link": "https://patents.google.com/patent/US8781160B2/en",
+      "year": 2014,
+      "assignee": "Indian Institute Of Technology Bombay",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Bombay"
+    },
+    {
+      "patent_id": "patent/WO2016157214A1/en",
+      "title": "Intellectual property management system and tool",
+      "link": "https://patents.google.com/patent/WO2016157214A1/en",
+      "year": 2016,
+      "assignee": "Indian Institute Of Technology Bombay",
+      "country_code": "WO",
+      "institute": "Indian Institute of Technology Bombay"
+    },
+    {
+      "patent_id": "patent/US20240378600A1/en",
+      "title": "Methods and systems for formation and termination of payment channel between \u2026",
+      "link": "https://patents.google.com/patent/US20240378600A1/en",
+      "year": 2024,
+      "assignee": "Indian Institute Of Technology Bombay",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Bombay"
+    },
+    {
+      "patent_id": "patent/US9184986B2/en",
+      "title": "Method and apparatus for optimizing and scaling control plane traffic in \u2026",
+      "link": "https://patents.google.com/patent/US9184986B2/en",
+      "year": 2015,
+      "assignee": "Indian Institute Of Technology Bombay",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Bombay"
+    },
+    {
+      "patent_id": "patent/WO2024261533A9/en",
+      "title": "Identifying and quantifying probable principal ions in ion-mobility domain of \u2026",
+      "link": "https://patents.google.com/patent/WO2024261533A9/en",
+      "year": 2025,
+      "assignee": "Clarity Bio Systems India Pvt. Ltd.",
+      "country_code": "WO",
+      "institute": "Indian Institute of Technology Bombay"
+    },
+    {
+      "patent_id": "patent/WO2018002953A1/en",
+      "title": "Integrated decision support system and method for deriving inferences from data \u2026",
+      "link": "https://patents.google.com/patent/WO2018002953A1/en",
+      "year": 2018,
+      "assignee": "Indian Institute Of Technology Bombay",
+      "country_code": "WO",
+      "institute": "Indian Institute of Technology Bombay"
+    },
+    {
+      "patent_id": "patent/US8805111B2/en",
+      "title": "System and method for fusing images",
+      "link": "https://patents.google.com/patent/US8805111B2/en",
+      "year": 2014,
+      "assignee": "Indian Institute Of Technology Bombay",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Bombay"
+    },
+    {
+      "patent_id": "patent/WO2023203584A1/en",
+      "title": "Centroiding of mass scan data obtained from high-resolution mass spectrometry ( \u2026",
+      "link": "https://patents.google.com/patent/WO2023203584A1/en",
+      "year": 2023,
+      "assignee": "Clarity Bio Systems India Private Limited",
+      "country_code": "WO",
+      "institute": "Indian Institute of Technology Bombay"
+    },
+    {
+      "patent_id": "patent/US20160103164A1/en",
+      "title": "Identification of a power source in a multiple power source scenario and \u2026",
+      "link": "https://patents.google.com/patent/US20160103164A1/en",
+      "year": 2016,
+      "assignee": "Indian Institute Of Technology Bombay",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Bombay"
+    },
+    {
+      "patent_id": "patent/US6940037B1/en",
+      "title": "System and method for controlling welding parameters in welding-based \u2026",
+      "link": "https://patents.google.com/patent/US6940037B1/en",
+      "year": 2005,
+      "assignee": "Southern Methodist University",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Bombay"
+    },
+    {
+      "patent_id": "patent/US20240422663A1/en",
+      "title": "Systems and methods for relay selection in millimeter wave networks",
+      "link": "https://patents.google.com/patent/US20240422663A1/en",
+      "year": 2024,
+      "assignee": "Indian Institute of Technology - Bombay",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Bombay"
+    },
+    {
+      "patent_id": "patent/US20250220549A1/en",
+      "title": "System and method for assigning mobile relays in millimeter wave networks",
+      "link": "https://patents.google.com/patent/US20250220549A1/en",
+      "year": 2025,
+      "assignee": "Indian Institute Of Technology Bombay",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Bombay"
+    },
+    {
+      "patent_id": "patent/US20240237049A1/en",
+      "title": "System and methods for scheduling in mmwave networks",
+      "link": "https://patents.google.com/patent/US20240237049A1/en",
+      "year": 2024,
+      "assignee": "Indian Institute Of Technology Bombay",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Bombay"
+    },
+    {
+      "patent_id": "patent/WO2017203541A4/en",
+      "title": "Method for quantifying uncertainty in a system",
+      "link": "https://patents.google.com/patent/WO2017203541A4/en",
+      "year": 2018,
+      "assignee": "Indian Institute Of Technology Bombay",
+      "country_code": "WO",
+      "institute": "Indian Institute of Technology Bombay"
+    },
+    {
+      "patent_id": "patent/WO2025022464A1/en",
+      "title": "Identifying and quantifying list of probable principal ions in chromatographic \u2026",
+      "link": "https://patents.google.com/patent/WO2025022464A1/en",
+      "year": 2025,
+      "assignee": "Clarity Bio Systems India Private Limited",
+      "country_code": "WO",
+      "institute": "Indian Institute of Technology Bombay"
+    },
+    {
+      "patent_id": "patent/US11368818B2/en",
+      "title": "Methods and systems for using multi-connectivity for multicast transmissions in \u2026",
+      "link": "https://patents.google.com/patent/US11368818B2/en",
+      "year": 2022,
+      "assignee": "Indian Institute Of Technology Bombay",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Bombay"
+    },
+    {
+      "patent_id": "patent/US20250088902A1/en",
+      "title": "Systems and methods for scheduling of self-backhaul links in Millimeter wave \u2026",
+      "link": "https://patents.google.com/patent/US20250088902A1/en",
+      "year": 2025,
+      "assignee": "Indian Institute Of Technology Bombay",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Bombay"
+    },
+    {
+      "patent_id": "patent/US12273933B2/en",
+      "title": "Method and system for resource allocation and timing alignment in integrated \u2026",
+      "link": "https://patents.google.com/patent/US12273933B2/en",
+      "year": 2025,
+      "assignee": "Centre Of Excellence In Wireless Technology",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Madras"
+    },
+    {
+      "patent_id": "patent/US11696317B2/en",
+      "title": "Signaling methods to alter the number of control channel blind decodings in \u2026",
+      "link": "https://patents.google.com/patent/US11696317B2/en",
+      "year": 2023,
+      "assignee": "Centre Of Excellence In Wireless Technology",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Madras"
+    },
+    {
+      "patent_id": "patent/US8660825B2/en",
+      "title": "Methods and systems for modeling a physical object",
+      "link": "https://patents.google.com/patent/US8660825B2/en",
+      "year": 2014,
+      "assignee": "Indian Institute Of Technology Madras",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Madras"
+    },
+    {
+      "patent_id": "patent/US11659482B2/en",
+      "title": "Method of signalling in an integrated access and backhaul network",
+      "link": "https://patents.google.com/patent/US11659482B2/en",
+      "year": 2023,
+      "assignee": "Centre of Excellence in Wireless Technology and",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Madras"
+    },
+    {
+      "patent_id": "patent/US20250106826A1/en",
+      "title": "Implementation of sub-band full duplexing in a cellular network",
+      "link": "https://patents.google.com/patent/US20250106826A1/en",
+      "year": 2025,
+      "assignee": "Centre Of Excellence In Wireless Technology",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Madras"
+    },
+    {
+      "patent_id": "patent/WO2019166400A1/en",
+      "title": "Method for minimizing thermoacoustic instabilities of a gas turbine",
+      "link": "https://patents.google.com/patent/WO2019166400A1/en",
+      "year": 2019,
+      "assignee": "Potsdam-Institut F\u00fcr Klimafolgenforschung E.V.",
+      "country_code": "WO",
+      "institute": "Indian Institute of Technology Madras"
+    },
+    {
+      "patent_id": "patent/US20120052513A1/en",
+      "title": "Gold sub-nanoclusters and uses thereof",
+      "link": "https://patents.google.com/patent/US20120052513A1/en",
+      "year": 2012,
+      "assignee": "Pradeep Thalappil",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Madras"
+    },
+    {
+      "patent_id": "patent/US12025528B2/en",
+      "title": "Device and method to predict the onset of oscillatory instabilities in systems \u2026",
+      "link": "https://patents.google.com/patent/US12025528B2/en",
+      "year": 2024,
+      "assignee": "INDIAN INSTITUTE OF TECHNOLOGY MADRAS (IIT Madras)",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Madras"
+    },
+    {
+      "patent_id": "patent/US20240242131A1/en",
+      "title": "System and method for data classification",
+      "link": "https://patents.google.com/patent/US20240242131A1/en",
+      "year": 2024,
+      "assignee": "INDIAN INSTITUTE OF TECHNOLOGY MADRAS (IIT Madras)",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Madras"
+    },
+    {
+      "patent_id": "patent/US20160173208A1/en",
+      "title": "Interference management for a distributed spatial network",
+      "link": "https://patents.google.com/patent/US20160173208A1/en",
+      "year": 2016,
+      "assignee": "Centre Of Excellence In Wireless Technology",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Madras"
+    },
+    {
+      "patent_id": "patent/US20250168763A1/en",
+      "title": "Methods for energy saving in a cellular network",
+      "link": "https://patents.google.com/patent/US20250168763A1/en",
+      "year": 2025,
+      "assignee": "Centre Of Excellence In Wireless Technology",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Madras"
+    },
+    {
+      "patent_id": "patent/WO2024189650A1/en",
+      "title": "A system and method for secure management of electronic health and medical \u2026",
+      "link": "https://patents.google.com/patent/WO2024189650A1/en",
+      "year": 2024,
+      "assignee": "INDIAN INSTITUTE OF TECHNOLOGY MADRAS (IIT Madras)",
+      "country_code": "WO",
+      "institute": "Indian Institute of Technology Madras"
+    },
+    {
+      "patent_id": "patent/WO2022224266A1/en",
+      "title": "A method for consensus prioritization of regression test-cases supported by \u2026",
+      "link": "https://patents.google.com/patent/WO2022224266A1/en",
+      "year": 2022,
+      "assignee": "INDIAN INSTITUTE OF TECHNOLOGY MADRAS (IIT Madras)",
+      "country_code": "WO",
+      "institute": "Indian Institute of Technology Madras"
+    },
+    {
+      "patent_id": "patent/WO2025150059A1/en",
+      "title": "Smart meter based energy hubs performing energy interoperability to improve \u2026",
+      "link": "https://patents.google.com/patent/WO2025150059A1/en",
+      "year": 2025,
+      "assignee": "INDIAN INSTITUTE OF TECHNOLOGY MADRAS (IIT Madras)",
+      "country_code": "WO",
+      "institute": "Indian Institute of Technology Madras"
+    },
+    {
+      "patent_id": "patent/WO2025173039A2/en",
+      "title": "System and method for reconstruction of 3-dimensional anatomy",
+      "link": "https://patents.google.com/patent/WO2025173039A2/en",
+      "year": 2025,
+      "assignee": "INDIAN INSTITUTE OF TECHNOLOGY MADRAS (IIT Madras)",
+      "country_code": "WO",
+      "institute": "Indian Institute of Technology Madras"
+    },
+    {
+      "patent_id": "patent/US20250150235A1/en",
+      "title": "Method and system for sidelink positioning protocol data unit configurations, \u2026",
+      "link": "https://patents.google.com/patent/US20250150235A1/en",
+      "year": 2025,
+      "assignee": "Centre Of Excellence In Wireless Technology",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Madras"
+    },
+    {
+      "patent_id": "patent/WO2024018480A1/en",
+      "title": "A method of beamforming for mitigating interference between nodes of a wireless \u2026",
+      "link": "https://patents.google.com/patent/WO2024018480A1/en",
+      "year": 2024,
+      "assignee": "Centre Of Excellence In Wireless Technology",
+      "country_code": "WO",
+      "institute": "Indian Institute of Technology Madras"
+    },
+    {
+      "patent_id": "patent/WO2025262712A1/en",
+      "title": "System and method for atmospheric observations",
+      "link": "https://patents.google.com/patent/WO2025262712A1/en",
+      "year": 2025,
+      "assignee": "INDIAN INSTITUTE OF TECHNOLOGY MADRAS (IIT Madras)",
+      "country_code": "WO",
+      "institute": "Indian Institute of Technology Madras"
+    },
+    {
+      "patent_id": "patent/WO2025233972A1/en",
+      "title": "A route planning method for the operation of autonomous mobile objects and a \u2026",
+      "link": "https://patents.google.com/patent/WO2025233972A1/en",
+      "year": 2025,
+      "assignee": "INDIAN INSTITUTE OF TECHNOLOGY MADRAS (IIT Madras)",
+      "country_code": "WO",
+      "institute": "Indian Institute of Technology Madras"
+    },
+    {
+      "patent_id": "patent/WO2025196838A1/en",
+      "title": "METHODS AND SYSTEMS FOR BEAM MANAGEMENT FOR AMBIENT IoT READER",
+      "link": "https://patents.google.com/patent/WO2025196838A1/en",
+      "year": 2025,
+      "assignee": "Centre Of Excellence In Wireless Technology",
+      "country_code": "WO",
+      "institute": "Indian Institute of Technology Madras"
+    },
+    {
+      "patent_id": "patent/WO2024105692A1/en",
+      "title": "Exhaled breath based user authentication and diagnosis",
+      "link": "https://patents.google.com/patent/WO2024105692A1/en",
+      "year": 2024,
+      "assignee": "INDIAN INSTITUTE OF TECHNOLOGY MADRAS (IIT Madras)",
+      "country_code": "WO",
+      "institute": "Indian Institute of Technology Madras"
+    },
+    {
+      "patent_id": "patent/FR2930695A1/en",
+      "title": "CELL RADIOCOMMUNICATION METHOD USING PUSC SEGMENTATION TECHNIQUE",
+      "link": "https://patents.google.com/patent/FR2930695A1/en",
+      "year": 2009,
+      "assignee": "Alcatel Lucent Sas",
+      "country_code": "FR",
+      "institute": "Indian Institute of Technology Madras"
+    },
+    {
+      "patent_id": "patent/DE102022211605A1/en",
+      "title": "RELIABILITY IMPROVEMENTS FOR MULTIPLE ACCESS TRAFFIC MANAGEMENT",
+      "link": "https://patents.google.com/patent/DE102022211605A1/en",
+      "year": 2023,
+      "assignee": "Intel Corporation",
+      "country_code": "DE",
+      "institute": "Indian Institute of Technology Kanpur"
+    },
+    {
+      "patent_id": "patent/AU2011261169B2/en",
+      "title": "Optimising objectives of a plant and a carbon dioxide capture facility",
+      "link": "https://patents.google.com/patent/AU2011261169B2/en",
+      "year": 2017,
+      "assignee": "Kc8 Capture Technologies Ltd",
+      "country_code": "AU",
+      "institute": "Indian Institute of Technology Kanpur"
+    },
+    {
+      "patent_id": "patent/US20140344319A1/en",
+      "title": "Algorithm for primality testing based on infinite, symmetric, convergent, \u2026",
+      "link": "https://patents.google.com/patent/US20140344319A1/en",
+      "year": 2014,
+      "assignee": "Daljit Singh Jandu",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Kanpur"
+    },
+    {
+      "patent_id": "patent/CN100454314C/en",
+      "title": "Multipurpose optimization device, multipurpose optimization method and \u2026",
+      "link": "https://patents.google.com/patent/CN100454314C/en",
+      "year": 2009,
+      "assignee": "\u96c5\u9a6c\u54c8\u53d1\u52a8\u673a\u682a\u5f0f\u4f1a\u793e",
+      "country_code": "CN",
+      "institute": "Indian Institute of Technology Kanpur"
+    },
+    {
+      "patent_id": "patent/WO2022130308A1/en",
+      "title": "Techniques for cancer determination",
+      "link": "https://patents.google.com/patent/WO2022130308A1/en",
+      "year": 2022,
+      "assignee": "Indian Institute Of Technology Kanpur",
+      "country_code": "WO",
+      "institute": "Indian Institute of Technology Kanpur"
+    },
+    {
+      "patent_id": "patent/US12231278B2/en",
+      "title": "System and method for spectrally efficient pilot and detector design in delay- \u2026",
+      "link": "https://patents.google.com/patent/US12231278B2/en",
+      "year": 2025,
+      "assignee": "The Indian Institute Of Technology Kharagpur",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Kharagpur"
+    },
+    {
+      "patent_id": "patent/WO2024243685A1/en",
+      "title": "Generating interactive and immersive virtual and augmented reality environments \u2026",
+      "link": "https://patents.google.com/patent/WO2024243685A1/en",
+      "year": 2024,
+      "assignee": "Meta Live Inc.",
+      "country_code": "WO",
+      "institute": "Indian Institute of Technology Roorkee"
+    },
+    {
+      "patent_id": "patent/US20250350573A1/en",
+      "title": "Techniques for a self-learning scalable event broker",
+      "link": "https://patents.google.com/patent/US20250350573A1/en",
+      "year": 2025,
+      "assignee": "Oracle International Corporation",
+      "country_code": "US",
+      "institute": "Indian Institute of Technology Roorkee"
+    },
+    {
+      "patent_id": "patent/US8447846B2/en",
+      "title": "Using unique local unicast addresses in a global domain name server by \u2026",
+      "link": "https://patents.google.com/patent/US8447846B2/en",
+      "year": 2013,
+      "assignee": "International Business Machines Corporation",
+      "country_code": "US",
+      "institute": "Indian Institute of Science Bangalore"
+    },
+    {
+      "patent_id": "patent/US20080234135A1/en",
+      "title": "Ligand identification and matching software tools",
+      "link": "https://patents.google.com/patent/US20080234135A1/en",
+      "year": 2008,
+      "assignee": "Infosys Technologies Ltd. and Indian Institute of Science, Bangalore",
+      "country_code": "US",
+      "institute": "Indian Institute of Science Bangalore"
+    },
+    {
+      "patent_id": "patent/US20120036179A1/en",
+      "title": "Using Unique Local Unicast Addresses in a Global Domain Name Server",
+      "link": "https://patents.google.com/patent/US20120036179A1/en",
+      "year": 2012,
+      "assignee": "International Business Machines Corporation",
+      "country_code": "US",
+      "institute": "Indian Institute of Science Bangalore"
+    },
+    {
+      "patent_id": "patent/US20130338225A1/en",
+      "title": "Compounds As L-Cystine Crystallization Inhibitors And Uses Thereof",
+      "link": "https://patents.google.com/patent/US20130338225A1/en",
+      "year": 2013,
+      "assignee": "New York University",
+      "country_code": "US",
+      "institute": "Indian Institute of Science Bangalore"
+    },
+    {
+      "patent_id": "patent/SI26055A/en",
+      "title": "Nano-micellar pharmaceutical synergetic composition with antioxidant, anti- \u2026",
+      "link": "https://patents.google.com/patent/SI26055A/en",
+      "year": 2022,
+      "assignee": "MGC Pharma Ltd.",
+      "country_code": "SI",
+      "institute": "Indian Institute of Science Bangalore"
+    },
+    {
+      "patent_id": "patent/EP1658385A1/en",
+      "title": "Prediction of cavity size in the packed bed systems using new correlations and \u2026",
+      "link": "https://patents.google.com/patent/EP1658385A1/en",
+      "year": 2006,
+      "assignee": "Council of Scientific and Industrial Research",
+      "country_code": "EP",
+      "institute": "Indian Institute of Science Bangalore"
+    },
+    {
+      "patent_id": "patent/US8557754B2/en",
+      "title": "Composition of biodegradable gear oil",
+      "link": "https://patents.google.com/patent/US8557754B2/en",
+      "year": 2013,
+      "assignee": "Counsel Of Scientific &amp; Industrial Research",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US7582653B2/en",
+      "title": "Mercaptophenyl naphthyl methane compounds and synthesis thereof",
+      "link": "https://patents.google.com/patent/US7582653B2/en",
+      "year": 2009,
+      "assignee": "Council Of Scientific &amp; Industrial Research",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/CN101815466B/en",
+      "title": "A non-invasive device NADI TARANGINI useful for quantitative detection of \u2026",
+      "link": "https://patents.google.com/patent/CN101815466B/en",
+      "year": 2014,
+      "assignee": "\u79d1\u5b66\u4e0e\u5de5\u4e1a\u7814\u7a76\u59d4\u5458\u4f1a",
+      "country_code": "CN",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/CN103582427A/en",
+      "title": "Bakery product with improved flavour properties",
+      "link": "https://patents.google.com/patent/CN103582427A/en",
+      "year": 2014,
+      "assignee": "\u96c0\u5de2\u4ea7\u54c1\u6280\u672f\u63f4\u52a9\u6709\u9650\u516c\u53f8",
+      "country_code": "CN",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US20160242450A1/en",
+      "title": "Functional-gel Compositions and Methods",
+      "link": "https://patents.google.com/patent/US20160242450A1/en",
+      "year": 2016,
+      "assignee": "Rey Magana",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US10216910B2/en",
+      "title": "Simulated carbon and proton NMR chemical shifts based binary fingerprints for \u2026",
+      "link": "https://patents.google.com/patent/US10216910B2/en",
+      "year": 2019,
+      "assignee": "Council Of Scientific &amp; Industrial Research",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US20240196749A1/en",
+      "title": "Process for the Fabrication of Zn-O Graphene Based Flexible Strain and Pressure \u2026",
+      "link": "https://patents.google.com/patent/US20240196749A1/en",
+      "year": 2024,
+      "assignee": "Council Of Scientific And Industrial Research",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US20120012177A1/en",
+      "title": "HIGH EFFICIENT DYE-SENSITIZED SOLAR CELLS USING TiO2-MULTIWALLED CARBON NANO \u2026",
+      "link": "https://patents.google.com/patent/US20120012177A1/en",
+      "year": 2012,
+      "assignee": "Subas Kumar Muduli",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/CN107206033A/en",
+      "title": "Use bacillus coagulans SBC37 01, the method for the therapeutic treatment \u2026",
+      "link": "https://patents.google.com/patent/CN107206033A/en",
+      "year": 2017,
+      "assignee": "\u8428\u7c73\u83b1\u5e03\u65af\u6709\u9650\u516c\u53f8",
+      "country_code": "CN",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/CN102016627A/en",
+      "title": "A wireless information and safety system for mines",
+      "link": "https://patents.google.com/patent/CN102016627A/en",
+      "year": 2011,
+      "assignee": "\u79d1\u5b66\u4e0e\u5de5\u4e1a\u7814\u7a76\u59d4\u5458\u4f1a",
+      "country_code": "CN",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US20110059913A1/en",
+      "title": "Compositions and methods for the treatment of gastrointestinal indications",
+      "link": "https://patents.google.com/patent/US20110059913A1/en",
+      "year": 2011,
+      "assignee": "Council Of Scientific And Industrial Research",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US12226462B2/en",
+      "title": "Fibrinolytic composition and method of its preparation",
+      "link": "https://patents.google.com/patent/US12226462B2/en",
+      "year": 2025,
+      "assignee": "Council Of Scientific &amp; Industrial Research",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/EP1986670A2/en",
+      "title": "Intestinal alpha-glucosidase inhibitors and a process for the isolation and use \u2026",
+      "link": "https://patents.google.com/patent/EP1986670A2/en",
+      "year": 2008,
+      "assignee": "Council of Scientific and Industrial Research",
+      "country_code": "EP",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US20120252898A1/en",
+      "title": "Method of producing a stabilized naturally occuring hydroxycitric acid (hca) \u2026",
+      "link": "https://patents.google.com/patent/US20120252898A1/en",
+      "year": 2012,
+      "assignee": "Sevanti Mehta",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/CN101568551A/en",
+      "title": "A recombinant meso-active thermo-stable protein and the process of design and \u2026",
+      "link": "https://patents.google.com/patent/CN101568551A/en",
+      "year": 2009,
+      "assignee": "\u79d1\u5b66\u4e0e\u5de5\u4e1a\u7814\u7a76\u59d4\u5458\u4f1a",
+      "country_code": "CN",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US8973015B2/en",
+      "title": "Information processing device, system, control method, and program",
+      "link": "https://patents.google.com/patent/US8973015B2/en",
+      "year": 2015,
+      "assignee": "Nec Corporation",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US20120245357A1/en",
+      "title": "Alr2 inhibitors and their synthesis from a natural source",
+      "link": "https://patents.google.com/patent/US20120245357A1/en",
+      "year": 2012,
+      "assignee": "Council Of Scientific &amp; Industrial Research",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US10722462B2/en",
+      "title": "Discontinuous reverse micellar composition in cubic FD3M phase for sustained \u2026",
+      "link": "https://patents.google.com/patent/US10722462B2/en",
+      "year": 2020,
+      "assignee": "Council Of Scientific And Industrial Research",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/CN101395272A/en",
+      "title": "Method for obtaining tissue proteome library",
+      "link": "https://patents.google.com/patent/CN101395272A/en",
+      "year": 2009,
+      "assignee": "\u79d1\u5b66\u4e0e\u5de5\u4e1a\u7814\u7a76\u4f1a",
+      "country_code": "CN",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/CN109312379A/en",
+      "title": "Multifunctional recombinant nucleotide-dependent glycosyltransferase proteins \u2026",
+      "link": "https://patents.google.com/patent/CN109312379A/en",
+      "year": 2019,
+      "assignee": "\u79d1\u5b66\u4e0e\u5de5\u4e1a\u7814\u7a76\u59d4\u5458\u4f1a",
+      "country_code": "CN",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/EP3011473A1/en",
+      "title": "Topic based classification of documents",
+      "link": "https://patents.google.com/patent/EP3011473A1/en",
+      "year": 2016,
+      "assignee": "Hewlett-Packard Development Company, L.P.",
+      "country_code": "EP",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US5409703A/en",
+      "title": "Dried hydrogel from hydrophilic-hygroscopic polymer",
+      "link": "https://patents.google.com/patent/US5409703A/en",
+      "year": 1995,
+      "assignee": "Carrington Laboratories, Inc.",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US5703060A/en",
+      "title": "Uses of aloe products in the prevention and treatment of infections and \u2026",
+      "link": "https://patents.google.com/patent/US5703060A/en",
+      "year": 1997,
+      "assignee": "Carrington Laboratories Inc.",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US5106616A/en",
+      "title": "Administration of acemannan",
+      "link": "https://patents.google.com/patent/US5106616A/en",
+      "year": 1992,
+      "assignee": "Carrington Laboratories, Inc.",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/JP4927309B2/en",
+      "title": "Universal primers for wildlife identification",
+      "link": "https://patents.google.com/patent/JP4927309B2/en",
+      "year": 2012,
+      "assignee": "\u30ab\u30a6\u30f3\u30b9\u30a3\u30eb \u30aa\u30d6 \u30b5\u30a4\u30a8\u30f3\u30c6\u30a3\u30d5\u30a3\u30c3\u30af \u30a2\u30f3\u30c9 \u30a4\u30f3\u30c0\u30b9\u30c8\u30ea\u30a2\u30eb \u30ea\u30b5\u30fc\u30c1",
+      "country_code": "JP",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US2803129A/en",
+      "title": "Apparatus for testing of elastic materials",
+      "link": "https://patents.google.com/patent/US2803129A/en",
+      "year": 1957,
+      "assignee": "Council Scient Ind Res",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US5118673A/en",
+      "title": "Uses of aloe products",
+      "link": "https://patents.google.com/patent/US5118673A/en",
+      "year": 1992,
+      "assignee": "Carrington Laboratories, Inc.",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/EP1690207B1/en",
+      "title": "A computer based versatile method for identifying protein coding dna sequences \u2026",
+      "link": "https://patents.google.com/patent/EP1690207B1/en",
+      "year": 2010,
+      "assignee": "Council of Scientific and Industrial Research",
+      "country_code": "EP",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US3775286A/en",
+      "title": "Hydrogenation of coal",
+      "link": "https://patents.google.com/patent/US3775286A/en",
+      "year": 1973,
+      "assignee": "Council Scient Ind Res",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US20040193698A1/en",
+      "title": "Method for finding convergence of ranking of web page",
+      "link": "https://patents.google.com/patent/US20040193698A1/en",
+      "year": 2004,
+      "assignee": "Sadasivuni Lakshminarayana",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US3917599A/en",
+      "title": "2-Substituted-1,2,3,4,6,7,12,12A-octahydropyrazino(2{40 ,1{40 :6,1)pyrido(3,4-B \u2026",
+      "link": "https://patents.google.com/patent/US3917599A/en",
+      "year": 1975,
+      "assignee": "Council Scient Ind Res",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/WO2024018479A1/en",
+      "title": "A process of glass melting in microwave heating using metallic crucible made up \u2026",
+      "link": "https://patents.google.com/patent/WO2024018479A1/en",
+      "year": 2024,
+      "assignee": "Council Of Scientific &amp; Industrial Research",
+      "country_code": "WO",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/WO2025224758A1/en",
+      "title": "Composite scaffold for cartilage regeneration and its process thereof",
+      "link": "https://patents.google.com/patent/WO2025224758A1/en",
+      "year": 2025,
+      "assignee": "Council Of Scientific &amp; Industrial Research",
+      "country_code": "WO",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US3613798A/en",
+      "title": "Hydraulic control system for agricultural implements",
+      "link": "https://patents.google.com/patent/US3613798A/en",
+      "year": 1971,
+      "assignee": "Council Scient Ind Res",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US3821303A/en",
+      "title": "Improvements in or relating to the manufacture of cyclohexanone oximefrom \u2026",
+      "link": "https://patents.google.com/patent/US3821303A/en",
+      "year": 1974,
+      "assignee": "Council Scient Ind Res",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US3344636A/en",
+      "title": "Extrusion of metals",
+      "link": "https://patents.google.com/patent/US3344636A/en",
+      "year": 1967,
+      "assignee": "Council Scient Ind Res",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US20040121027A1/en",
+      "title": "Herbal composition for cuts, burns and wounds",
+      "link": "https://patents.google.com/patent/US20040121027A1/en",
+      "year": 2004,
+      "assignee": "Council Of Scientific And Industrial Research",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US3909369A/en",
+      "title": "Method for the production of an electrode for cathodic protection",
+      "link": "https://patents.google.com/patent/US3909369A/en",
+      "year": 1975,
+      "assignee": "Council Scient Ind Res",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US3346401A/en",
+      "title": "Processing of raw intestines",
+      "link": "https://patents.google.com/patent/US3346401A/en",
+      "year": 1967,
+      "assignee": "Council Scient Ind Res",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/EP1438120A1/en",
+      "title": "Biological filter for the purification of waste gases",
+      "link": "https://patents.google.com/patent/EP1438120A1/en",
+      "year": 2004,
+      "assignee": "Council of Scientific and Industrial Research",
+      "country_code": "EP",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US3392240A/en",
+      "title": "Acoustic systems",
+      "link": "https://patents.google.com/patent/US3392240A/en",
+      "year": 1968,
+      "assignee": "Council Scient Ind Res",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US3116026A/en",
+      "title": "Dirigible lamp assembly for vehicles",
+      "link": "https://patents.google.com/patent/US3116026A/en",
+      "year": 1963,
+      "assignee": "Council Scient Ind Res",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US3051737A/en",
+      "title": "Preparation and use of catalysts",
+      "link": "https://patents.google.com/patent/US3051737A/en",
+      "year": 1962,
+      "assignee": "Council Scient Ind Res",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US7435877B2/en",
+      "title": "Distinct type cultivar of Ocimum basilicum\u201cCIM-SAUMYA\u201d",
+      "link": "https://patents.google.com/patent/US7435877B2/en",
+      "year": 2008,
+      "assignee": "Council Of Scientific &amp; Industrial Research",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US5468737A/en",
+      "title": "Wound healing accelerated by systemic administration of polysaccharide from \u2026",
+      "link": "https://patents.google.com/patent/US5468737A/en",
+      "year": 1995,
+      "assignee": "Carrington Laboratories, Inc.",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/EP0611304B1/en",
+      "title": "Use of acetylated mannan (acemannan) for the regulation of blood cholesterol \u2026",
+      "link": "https://patents.google.com/patent/EP0611304B1/en",
+      "year": 1999,
+      "assignee": "Carrington Laboratories, Inc.",
+      "country_code": "EP",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/EP0965346A2/en",
+      "title": "Use of acetylated mannan derivatives for treating chronic respiratory diseases",
+      "link": "https://patents.google.com/patent/EP0965346A2/en",
+      "year": 1999,
+      "assignee": "Carrington Laboratories, Inc.",
+      "country_code": "EP",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/WO1993008810A1/en",
+      "title": "Uses of aloe products, e.g. acemannan, in the treatment of diseases requiring \u2026",
+      "link": "https://patents.google.com/patent/WO1993008810A1/en",
+      "year": 1993,
+      "assignee": "Carrington Laboratories, Inc.",
+      "country_code": "WO",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/US2819946A/en",
+      "title": "Preparation of titanium tetraiodide",
+      "link": "https://patents.google.com/patent/US2819946A/en",
+      "year": 1958,
+      "assignee": "Council Scient Ind Res",
+      "country_code": "US",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/KR100209180B1/en",
+      "title": "Pharmaceutical composition containing acemannan",
+      "link": "https://patents.google.com/patent/KR100209180B1/en",
+      "year": 1999,
+      "assignee": "\uce90\ub9c1\ud134 \ub77c\ubcf4\ub77c\ud1a0\ub9ac\uc988\uc778\ucf54\ud3ec\ub808\uc774\ud2f0\ub4dc",
+      "country_code": "KR",
+      "institute": "Council of Scientific and Industrial Research"
+    },
+    {
+      "patent_id": "patent/WO2010125236A1/en",
+      "title": "Method and apparatus of collecting data for agricultural analysis",
+      "link": "https://patents.google.com/patent/WO2010125236A1/en",
+      "year": 2010,
+      "assignee": "Nokia Corporation",
+      "country_code": "WO",
+      "institute": "Indian Space Research Organisation"
+    }
+  ]
+}

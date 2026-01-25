@@ -1,0 +1,366 @@
+{
+  "generated_at": "2026-01-23T08:33:39.590955",
+  "counts": 40,
+  "signals": [
+    {
+      "title": "Light-emitting device",
+      "field": "semiconductors",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "株式会社半導体エネルギー研究所",
+      "link": "https://patents.google.com/patent/JP7788588B2/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Semiconductor Devices",
+      "field": "semiconductors",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "株式会社半導体エネルギー研究所",
+      "link": "https://patents.google.com/patent/JP7770610B1/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Audio encoder and decoder with program information or substream structure …",
+      "field": "semiconductors",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "ドルビー ラボラトリーズ ライセンシング コーポレイション",
+      "link": "https://patents.google.com/patent/JP7775528B1/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Semiconductor device structure with conductive pillar",
+      "field": "semiconductors",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Taiwan Semiconductor Manufacturing Company, Ltd.",
+      "link": "https://patents.google.com/patent/US20250364468A1/en",
+      "pdf_link": null
+    },
+    {
+      "title": "electronic equipment",
+      "field": "semiconductors",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "株式会社半導体エネルギー研究所",
+      "link": "https://patents.google.com/patent/JP7769173B2/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Semiconductor package structure",
+      "field": "semiconductors",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Taiwan Semiconductor Manufacturing Company Ltd.",
+      "link": "https://patents.google.com/patent/US20250364373A1/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Front end of line interconnect structures and associated systems and methods",
+      "field": "semiconductors",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Micron Technology, Inc.",
+      "link": "https://patents.google.com/patent/US20250364371A1/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Semiconductor Devices",
+      "field": "semiconductors",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "株式会社半導体エネルギー研究所",
+      "link": "https://patents.google.com/patent/JP7760795B2/en",
+      "pdf_link": null
+    },
+    {
+      "title": "display device",
+      "field": "semiconductors",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "株式会社半導体エネルギー研究所",
+      "link": "https://patents.google.com/patent/JP7748598B1/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Systems and methods for spectrum analysis utilizing signal degradation data",
+      "field": "semiconductors",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Digital Global Systems, Inc.",
+      "link": "https://patents.google.com/patent/US12506549B2/en",
+      "pdf_link": null
+    },
+    {
+      "title": "PRELIMINARY PATENT SPECIFICATION Polarity-Based Recursive Interpretation System …",
+      "field": "robotics",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "b, s MR",
+      "link": "https://patents.google.com/patent/AU2025905729A0/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Systems and methods for radio frequency calibration exploiting channel …",
+      "field": "robotics",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Rearden, Llc",
+      "link": "https://patents.google.com/patent/AU2025230741B2/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Inferring State of Traffic Signal and Other Aspects of a Vehicle's Environment …",
+      "field": "robotics",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Waymo Llc",
+      "link": "https://patents.google.com/patent/US20250388239A1/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Enhanced systems, apparatus, and methods for positioning of an airborne …",
+      "field": "robotics",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Federal Express Corporation",
+      "link": "https://patents.google.com/patent/US20250384384A1/en",
+      "pdf_link": null
+    },
+    {
+      "title": "System and method for manipulating an anatomy",
+      "field": "robotics",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Mako Surgical Corp.",
+      "link": "https://patents.google.com/patent/AU2025223863B2/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Methods, devices, and systems for illuminating spatial light modulators",
+      "field": "robotics",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Magic Leap, Inc.",
+      "link": "https://patents.google.com/patent/US20250383547A1/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Resource management for 5g ev2x",
+      "field": "robotics",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Interdigital Patent Holdings, Inc.",
+      "link": "https://patents.google.com/patent/US20250386327A1/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Automated vehicle for use in inventory management system",
+      "field": "robotics",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Opex Corporation",
+      "link": "https://patents.google.com/patent/US20250382135A1/en",
+      "pdf_link": null
+    },
+    {
+      "title": "System and methods for performing surgery on a patient at a target site defined …",
+      "field": "robotics",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Stryker Corporation",
+      "link": "https://patents.google.com/patent/AU2025223869B2/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Refuse vehicle with electric chassis",
+      "field": "robotics",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Oshkosh Corporation",
+      "link": "https://patents.google.com/patent/US20250381849A1/en",
+      "pdf_link": null
+    },
+    {
+      "title": "display device",
+      "field": "space",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "株式会社半導体エネルギー研究所",
+      "link": "https://patents.google.com/patent/JP7748598B1/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Semiconductor Devices",
+      "field": "space",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "株式会社半導体エネルギー研究所",
+      "link": "https://patents.google.com/patent/JP7760795B2/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Systems and methods for spectrum analysis utilizing signal degradation data",
+      "field": "space",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Digital Global Systems, Inc.",
+      "link": "https://patents.google.com/patent/US12506549B2/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Systems, methods, and devices for automatic signal detection based on power …",
+      "field": "space",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Digital Global Systems, Inc.",
+      "link": "https://patents.google.com/patent/US12483343B1/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Correlation engine for correlating sensory events utilizing weight vector",
+      "field": "space",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "SecureNet Solutions Group LLC",
+      "link": "https://patents.google.com/patent/US12500810B2/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Semiconductor device and display device",
+      "field": "space",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "株式会社半導体エネルギー研究所",
+      "link": "https://patents.google.com/patent/JP7736967B1/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Social platform with enhanced privacy and integrated customization features",
+      "field": "space",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Sgrouples, Inc.",
+      "link": "https://patents.google.com/patent/US12513103B2/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Systems, methods, and devices for electronic spectrum management for …",
+      "field": "space",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Digital Global Systems, Inc.",
+      "link": "https://patents.google.com/patent/US12501393B2/en",
+      "pdf_link": null
+    },
+    {
+      "title": "System, method, and apparatus for providing dynamic, prioritized spectrum …",
+      "field": "space",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Digital Global Systems, Inc.",
+      "link": "https://patents.google.com/patent/US12464371B2/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Optical-path folding-element with an extended two degree of freedom rotation …",
+      "field": "space",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Corephotonics Ltd.",
+      "link": "https://patents.google.com/patent/US12460946B2/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Destruction of PFAS Via an Oxidation Process and Apparatus Suitable for …",
+      "field": "defence",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Revive Environmental Technology, Llc",
+      "link": "https://patents.google.com/patent/AU2025248652B2/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Real-time feedback-based optimization of an exoskeleton",
+      "field": "defence",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Dephy, Inc.",
+      "link": "https://patents.google.com/patent/US20250381089A1/en",
+      "pdf_link": null
+    },
+    {
+      "title": "System, method, and apparatus for providing dynamic, prioritized spectrum …",
+      "field": "defence",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Digital Global Systems, Inc.",
+      "link": "https://patents.google.com/patent/US20250386205A1/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Formulations for improving gut health",
+      "field": "defence",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Dsm Ip Assets B.V.",
+      "link": "https://patents.google.com/patent/US20250375469A1/en",
+      "pdf_link": null
+    },
+    {
+      "title": "System, method, and apparatus for providing dynamic, prioritized spectrum …",
+      "field": "defence",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Digital Global Systems, Inc.",
+      "link": "https://patents.google.com/patent/US20250386201A1/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Guided microbial remodeling, a platform for the rational improvement of …",
+      "field": "defence",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Pivot Bio, Inc.",
+      "link": "https://patents.google.com/patent/US20250366419A1/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Wagering on event outcomes during the event",
+      "field": "defence",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Cg Technology Development, Llc",
+      "link": "https://patents.google.com/patent/US20250371934A1/en",
+      "pdf_link": null
+    },
+    {
+      "title": "System and method for url fetching retry mechanism",
+      "field": "defence",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Bright Data Ltd.",
+      "link": "https://patents.google.com/patent/US20250384097A1/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Cyber security restoration engine",
+      "field": "defence",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Darktrace Holdings Limited",
+      "link": "https://patents.google.com/patent/US20250385930A1/en",
+      "pdf_link": null
+    },
+    {
+      "title": "Integration of content and records management systems",
+      "field": "defence",
+      "signal_type": "patent",
+      "year": "2025",
+      "assignee": "Hyland Uk Operations Limited",
+      "link": "https://patents.google.com/patent/US20250384092A1/en",
+      "pdf_link": null
+    }
+  ]
+}

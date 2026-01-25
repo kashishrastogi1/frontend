@@ -1,0 +1,61 @@
+{
+  "technology": "hypersonics",
+
+  "summary": {
+    "trl": 9,
+    "growth_stage": "Growth",
+    "market_size_billion_usd": 42,
+    "signals": 27
+  },
+
+  "trend_curve": [120, 180, 260, 340, 420, 510],
+
+  "country_investment": {
+    "US": 285,
+    "China": 198,
+    "India": 78,
+    "EU": 65
+  },
+
+  "patent_timeline": [
+    { "year": 2020, "count": 240 },
+    { "year": 2021, "count": 450 },
+    { "year": 2022, "count": 720 },
+    { "year": 2023, "count": 1050 },
+    { "year": 2024, "count": 1480 }
+  ],
+
+  "alerts": [
+    {
+      "type": "market",
+      "message": "AI + hypersonics convergence detected",
+      "time": "30 min ago"
+    },
+    {
+      "type": "patent",
+      "message": "New hypersonics propulsion patent filed",
+      "time": "2 hours ago"
+    }
+  ],
+
+  "related_companies": [
+    { "name": "TechCorp Industries", "description": "Strategic partner" },
+    { "name": "Innovation Labs Inc", "description": "R&D leader" },
+    { "name": "Advanced Systems Co", "description": "Market leader" },
+    { "name": "Future Tech Ventures", "description": "Early stage" }
+  ],
+
+  "publications": [
+    "Journal of Tech Review",
+    "Innovation Quarterly",
+    "Defense Tech Report",
+    "Strategic Analysis Brief"
+  ],
+
+  "patent_clusters": [
+    "Core Technology Patents",
+    "Application Method Patents",
+    "Integration Patents",
+    "Emerging Use Cases"
+  ]
+}

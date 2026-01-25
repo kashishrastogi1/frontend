@@ -1,0 +1,105 @@
+"use client"
+
+import { useEffect, useMemo, useState } from "react"
+import { VisualizationArea } from "@/components/visualization-area"
+import { KnowledgeGraph } from "@/components/knowledge-graph"
+import { filterKnowledgeGraph } from "@/lib/filters/filterKnowledgeGraph"
+import { defaultKGFilters, KGFilters } from "@/lib/filters/types"
+import { CompareEntitiesPanel } from "./compare-entities-panel"
+
+export default function CompareDashboardContent({ tech }: { tech: string }) {
+  const [data, setData] = useState<any>(null)
+  const [kg, setKg] = useState<any>(null)
+  const [error, setError] = useState<string | null>(null)
+  const [kgFilters] = useState<KGFilters>(defaultKGFilters)
+
+    useEffect(() => {
+    let cancelled = false
+   // const scrollY = window.scrollY   // ✅ ADD THIS
+
+    async function load() {
+        try {
+        let res = await fetch(`/api/tech/${tech}`)
+
+        if (res.status === 404) {
+            await fetch(`/api/tech/${tech}/run`, { method: "POST" })
+            res = await fetch(`/api/tech/${tech}`)
+        }
+
+        const json = await res.json()
+
+        if (!cancelled) {
+            setData(json.dashboard ?? json.data ?? json)
+            setKg(json.knowledge_graph ?? null)
+
+            // ✅ RESTORE SCROLL POSITION
+            requestAnimationFrame(() => {
+            window.scrollTo({ top: scrollY })
+            })
+        }
+        } catch {}
+    }
+
+    load()
+    return () => {
+        cancelled = true
+    }
+    }, [tech])
+
+
+  const filteredKG = useMemo(() => {
+    if (!kg) return null
+    return filterKnowledgeGraph(kg, kgFilters)
+  }, [kg, kgFilters])
+
+  if (error) {
+    return <p className="text-sm text-red-500">{error}</p>
+  }
+
+  if (!data) {
+    return (
+      <p className="text-sm text-muted-foreground">
+        Loading analysis…
+      </p>
+    )
+  }
+
+  return (
+    <div className="space-y-6">
+      {/* Tech title */}
+      <h2 className="text-xl font-semibold capitalize">{tech}</h2>
+
+      {/* Charts */}
+      <VisualizationArea
+        trendCurve={data.trend_curve ?? []}
+        countryInvestment={data.country_investment?.values ?? []}
+        patentTimeline={data.patent_timeline ?? []}
+        marketReports={data.entities?.market_reports ?? []}
+      />
+
+      {/* Knowledge Graph */}
+      {filteredKG && filteredKG.nodes?.length > 0 && (
+        <div className="rounded-xl border bg-card p-4">
+          <h3 className="text-sm font-semibold mb-3">
+            Knowledge Graph
+          </h3>
+
+          <div className="h-[420px] w-full overflow-hidden rounded-md border">
+            <KnowledgeGraph
+              nodes={filteredKG.nodes}
+              edges={filteredKG.edges}
+            />
+          </div>
+        </div>
+      )}
+
+     <CompareEntitiesPanel
+  companies={data.entities?.companies ?? []}
+  publications={data.entities?.papers ?? []}
+  patents={data.entities?.patents ?? []}
+/>
+
+
+    </div>
+  )
+}

@@ -1,0 +1,265 @@
+{
+  "country": "India",
+  "fields": {
+    "artificial_intelligence": {
+      "publications": [],
+      "trends": {
+        "publications_year": []
+      }
+    },
+    "semiconductors": {
+      "publications": [],
+      "trends": {
+        "publications_year": []
+      }
+    },
+    "cybersecurity": {
+      "publications": [],
+      "trends": {
+        "publications_year": []
+      }
+    },
+    "space_technology": {
+      "publications": [
+        {
+          "title": "Satellite remote sensing of fine particulate air pollutants over Indian mega cities",
+          "year": 2017,
+          "doi": "10.1016/j.asr.2017.08.008",
+          "citations": 19,
+          "link": "https://doi.org/10.1016/j.asr.2017.08.008",
+          "field": "space_technology",
+          "source": "Crossref",
+          "matched_institute": "india"
+        },
+        {
+          "title": "Improved rainfall estimation over the Indian monsoon region by synergistic use of Kalpana-1 and rain gauge data",
+          "year": 2015,
+          "doi": "10.20937/atm.2015.28.01.05",
+          "citations": 12,
+          "link": "https://doi.org/10.20937/atm.2015.28.01.05",
+          "field": "space_technology",
+          "source": "Crossref",
+          "matched_institute": "india"
+        },
+        {
+          "title": "The possible linkage of satellite based cloud microphysical parameters (CMP) to the Indian Summer Monsoon (ISM) active and break phase",
+          "year": 2021,
+          "doi": "10.1016/j.asr.2021.04.007",
+          "citations": 4,
+          "link": "https://doi.org/10.1016/j.asr.2021.04.007",
+          "field": "space_technology",
+          "source": "Crossref",
+          "matched_institute": "india"
+        },
+        {
+          "title": "Study on the Development of Indian Space Launch Vehicle",
+          "year": 2006,
+          "doi": "10.5139/jksas.2006.34.2.112",
+          "citations": 0,
+          "link": "https://doi.org/10.5139/jksas.2006.34.2.112",
+          "field": "space_technology",
+          "source": "Crossref",
+          "matched_institute": "india"
+        },
+        {
+          "title": "Harnessing Time-Series Satellite Data and Deep Learning to Monitor Historical Patterns of Deforestation in Eastern Himalayan Foothills of India",
+          "year": 2025,
+          "doi": "10.1007/s12524-025-02137-8",
+          "citations": 3,
+          "link": "https://doi.org/10.1007/s12524-025-02137-8",
+          "field": "space_technology",
+          "source": "Crossref",
+          "matched_institute": "india"
+        },
+        {
+          "title": "Optimization of Cryogenic Process for Enhancing the Wear Resistance of Novel HNMS Steel for Cryogenic Bearings of Launch Vehicle",
+          "year": 2019,
+          "doi": "10.1080/10402004.2019.1609147",
+          "citations": 4,
+          "link": "https://doi.org/10.1080/10402004.2019.1609147",
+          "field": "space_technology",
+          "source": "Crossref",
+          "matched_institute": "india"
+        },
+        {
+          "title": "A Review of Indian Space Launch Capabilities",
+          "year": 2022,
+          "doi": "10.1089/space.2021.0064",
+          "citations": 6,
+          "link": "https://doi.org/10.1089/space.2021.0064",
+          "field": "space_technology",
+          "source": "Crossref",
+          "matched_institute": "india"
+        },
+        {
+          "title": "Serpentine-magnesite Association of Salem Ultramafic Complex, Southern India: A Potential Analogue for Mars",
+          "year": 2022,
+          "doi": "10.1016/j.pss.2022.105528",
+          "citations": 5,
+          "link": "https://doi.org/10.1016/j.pss.2022.105528",
+          "field": "space_technology",
+          "source": "Crossref",
+          "matched_institute": "india"
+        },
+        {
+          "title": "Multi-criteria evaluation of satellite-based precipitation estimates over agro-climatic zones of India",
+          "year": 2023,
+          "doi": "10.1016/j.atmosres.2023.106879",
+          "citations": 15,
+          "link": "https://doi.org/10.1016/j.atmosres.2023.106879",
+          "field": "space_technology",
+          "source": "Crossref",
+          "matched_institute": "india"
+        },
+        {
+          "title": "Impact of an eclipse on the Indian equatorial ionosphere thermosphere system: A case study",
+          "year": 2025,
+          "doi": "10.1016/j.asr.2025.03.068",
+          "citations": 0,
+          "link": "https://doi.org/10.1016/j.asr.2025.03.068",
+          "field": "space_technology",
+          "source": "Crossref",
+          "matched_institute": "india"
+        },
+        {
+          "title": "Chalcogenide Dopant-Induced Lattice Expansion in Cobalt Vanadium Oxide Nanosheets for Enhanced Supercapacitor Performance",
+          "year": 2021,
+          "doi": "10.1021/acsaem.1c00357",
+          "citations": 50,
+          "link": "https://doi.org/10.1021/acsaem.1c00357",
+          "field": "space_technology",
+          "source": "Crossref",
+          "matched_institute": "india"
+        },
+        {
+          "title": "Multi-altitude observations of the lower atmospheric disturbances and its ionospheric signatures over the Indian region",
+          "year": 2024,
+          "doi": "10.1016/j.asr.2023.06.001",
+          "citations": 1,
+          "link": "https://doi.org/10.1016/j.asr.2023.06.001",
+          "field": "space_technology",
+          "source": "Crossref",
+          "matched_institute": "india"
+        },
+        {
+          "title": "Performance evaluation of MODIS and VIIRS satellite AOD products over the Indian subcontinent",
+          "year": 2023,
+          "doi": "10.3389/fenvs.2023.1158641",
+          "citations": 21,
+          "link": "https://doi.org/10.3389/fenvs.2023.1158641",
+          "field": "space_technology",
+          "source": "Crossref",
+          "matched_institute": "india"
+        },
+        {
+          "title": "Non-homogeneous vertical distribution of methane over Indian region using surface, aircraft and satellite based data",
+          "year": 2016,
+          "doi": "10.1016/j.atmosenv.2016.06.068",
+          "citations": 12,
+          "link": "https://doi.org/10.1016/j.atmosenv.2016.06.068",
+          "field": "space_technology",
+          "source": "Crossref",
+          "matched_institute": "india"
+        },
+        {
+          "title": "InP/ZnS Quantum Dots for High-Sensitivity Temperature Sensors",
+          "year": 2024,
+          "doi": "10.1021/acsomega.4c05644",
+          "citations": 10,
+          "link": "https://doi.org/10.1021/acsomega.4c05644",
+          "field": "space_technology",
+          "source": "Crossref",
+          "matched_institute": "india"
+        },
+        {
+          "title": "Indian Network for Space Weather Impact Monitoring (InSWIM): An initiative to observe and model the low latitude ionosphere over the Indian longitudes",
+          "year": 2025,
+          "doi": "10.1016/j.asr.2024.11.025",
+          "citations": 4,
+          "link": "https://doi.org/10.1016/j.asr.2024.11.025",
+          "field": "space_technology",
+          "source": "Crossref",
+          "matched_institute": "india"
+        },
+        {
+          "title": "The particularly clean response of the Indian sector to a strong but short lived geomagnetic storm",
+          "year": 2024,
+          "doi": "10.1016/j.asr.2023.05.048",
+          "citations": 11,
+          "link": "https://doi.org/10.1016/j.asr.2023.05.048",
+          "field": "space_technology",
+          "source": "Crossref",
+          "matched_institute": "india"
+        },
+        {
+          "title": "On the response of equatorial and low latitude ionosphere over Indian region to the tropical cyclones",
+          "year": 2025,
+          "doi": "10.1016/j.asr.2025.03.017",
+          "citations": 1,
+          "link": "https://doi.org/10.1016/j.asr.2025.03.017",
+          "field": "space_technology",
+          "source": "Crossref",
+          "matched_institute": "india"
+        },
+        {
+          "title": "On the variability of the Equatorial Ionization Anomaly Trough over Indian region: A novel analysis using Beacon TEC measurements",
+          "year": 2020,
+          "doi": "10.1016/j.asr.2020.04.040",
+          "citations": 6,
+          "link": "https://doi.org/10.1016/j.asr.2020.04.040",
+          "field": "space_technology",
+          "source": "Crossref",
+          "matched_institute": "india"
+        }
+      ],
+      "trends": {
+        "publications_year": [
+          {
+            "year": 2006,
+            "count": 1
+          },
+          {
+            "year": 2015,
+            "count": 1
+          },
+          {
+            "year": 2016,
+            "count": 1
+          },
+          {
+            "year": 2017,
+            "count": 1
+          },
+          {
+            "year": 2019,
+            "count": 1
+          },
+          {
+            "year": 2020,
+            "count": 1
+          },
+          {
+            "year": 2021,
+            "count": 2
+          },
+          {
+            "year": 2022,
+            "count": 2
+          },
+          {
+            "year": 2023,
+            "count": 2
+          },
+          {
+            "year": 2024,
+            "count": 3
+          },
+          {
+            "year": 2025,
+            "count": 4
+          }
+        ]
+      }
+    }
+  }
+}
