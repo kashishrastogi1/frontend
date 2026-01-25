@@ -1,4 +1,5 @@
 "use client";
+console.log("🔥 DASHBOARD FILE VERSION: 2026-CRITICAL-FIX");
 
 import { BACKEND_URL } from "@/lib/utils/api";
 import { Suspense, useEffect, useMemo, useState } from "react";
