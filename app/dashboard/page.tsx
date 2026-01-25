@@ -60,7 +60,7 @@ function DashboardContent() {
         console.warn("⚠️ Cache miss. Triggering ML pipeline...");
 
        const runRes = await fetch(
-       `${BACKEND_URL}/api/technology/${encodedTech}/run`,
+       `${BACKEND_URL}/api/technology/${encodedTech}`,
          { method: "POST" }
        );
 

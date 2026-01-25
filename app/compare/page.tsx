@@ -6,6 +6,7 @@ import { useState } from "react"
 import CompareDashboardContent from "@/components/compare/compare-dashboard-content"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { BackButton } from "@/components/back-button"
+import { BACKEND_URL } from "@/lib/utils/api"
 
 export default function ComparePage() {
   const searchParams = useSearchParams()
@@ -24,7 +25,7 @@ export default function ComparePage() {
 
   async function handleCompareSearch(query: string) {
     try {
-      const res = await fetch("/api/validate-tech", {
+      const res = await fetch(`${BACKEND_URL}/api/validate-tech`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query }),

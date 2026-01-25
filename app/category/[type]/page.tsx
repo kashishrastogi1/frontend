@@ -5,6 +5,7 @@ import { useEffect, useState } from "react"
 import { useParams, useRouter } from "next/navigation"
 import { Card, CardContent } from "@/components/ui/card"
 import { ChevronLeft, TrendingUp, TrendingDown, FileText } from "lucide-react"
+import { BACKEND_URL } from "@/lib/utils/api"
 
 type CategoryType = "trends" | "investments" | "patents"
 
@@ -22,13 +23,15 @@ const CATEGORY_CONFIG: Record<
 > = {
   trends: {
     title: "Recent Trends",
-    description: "Latest technology developments and market movements shaping the industry",
+    description:
+      "Latest technology developments and market movements shaping the industry",
     icon: <TrendingUp className="w-6 h-6" />,
     color: "text-blue-600 dark:text-blue-400",
   },
   investments: {
     title: "Recent Investments",
-    description: "Funding rounds and investment activity driving technological advancement",
+    description:
+      "Funding rounds and investment activity driving technological advancement",
     icon: <TrendingDown className="w-6 h-6" />,
     color: "text-emerald-600 dark:text-emerald-400",
   },
@@ -61,7 +64,7 @@ export default function CategoryPage() {
 
         /* ================= TRENDS ================= */
         if (type === "trends") {
-          const res = await fetch("/api/global")
+          const res = await fetch(`${BACKEND_URL}/api/global`)
           if (!res.ok) throw new Error("Trends API failed")
 
           const json = await res.json()
@@ -76,16 +79,13 @@ export default function CategoryPage() {
             })
           )
 
-          if (!cancelled) {
-            setData(mapped)
-            setLoading(false)
-          }
+          if (!cancelled) setData(mapped)
           return
         }
 
         /* ================= PATENTS ================= */
         if (type === "patents") {
-          const res = await fetch("/api/global")
+          const res = await fetch(`${BACKEND_URL}/api/global`)
           if (!res.ok) throw new Error("Patents API failed")
 
           const json = await res.json()
@@ -100,32 +100,24 @@ export default function CategoryPage() {
             })
           )
 
-          if (!cancelled) {
-            setData(mapped)
-            setLoading(false)
-          }
+          if (!cancelled) setData(mapped)
           return
         }
 
         /* ================= INVESTMENTS ================= */
         if (type === "investments") {
-          const res = await fetch("/api/global-investment")
+          const res = await fetch(`${BACKEND_URL}/api/global-investment`)
           if (!res.ok) throw new Error("Investment API failed")
 
           const json = await res.json()
 
           const rows: CategoryItem[] = []
-          const countries = json ?? {}
 
-          Object.entries(countries).forEach(
+          Object.entries(json ?? {}).forEach(
             ([country, countryData]: any) => {
-              const technologies = countryData?.technologies ?? {}
-
-              Object.entries(technologies).forEach(
+              Object.entries(countryData?.technologies ?? {}).forEach(
                 ([tech, techData]: any) => {
-                  const articles = techData?.articles ?? []
-
-                  articles.forEach((a: any, idx: number) => {
+                  (techData?.articles ?? []).forEach((a: any, idx: number) => {
                     if (!a?.title) return
 
                     rows.push({
@@ -141,18 +133,14 @@ export default function CategoryPage() {
             }
           )
 
-          if (!cancelled) {
-            setData(rows)
-            setLoading(false)
-          }
+          if (!cancelled) setData(rows)
           return
         }
       } catch (err) {
         console.error("Category page error:", err)
-        if (!cancelled) {
-          setError("Data not available")
-          setLoading(false)
-        }
+        if (!cancelled) setError("Data not available")
+      } finally {
+        if (!cancelled) setLoading(false)
       }
     }
 
@@ -193,9 +181,7 @@ export default function CategoryPage() {
           )}
 
           {error && (
-            <p className="text-center text-sm text-red-500">
-              {error}
-            </p>
+            <p className="text-center text-sm text-red-500">{error}</p>
           )}
 
           {!loading &&
