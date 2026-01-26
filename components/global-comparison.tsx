@@ -8,7 +8,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-
+import { BACKEND_URL } from "@/lib/utils/api"
 /* ---------- Types ---------- */
 
 type Technology = {
@@ -41,12 +41,12 @@ export function GlobalComparison() {
   const [selectedCountry, setSelectedCountry] = useState("")
 
   useEffect(() => {
-    fetch("/api/global-investment")
+    fetch(`${BACKEND_URL}/api/global`)
       .then((res) => res.json())
-      .then((json: GlobalInvestmentJSON) => {
-        setData(json)
-        const first = Object.keys(json)[0]
-        if (first) setSelectedCountry(first)
+      .then((json) => {
+         setData(json.investments)
+         const first = Object.keys(json)[0]
+         if (first) setSelectedCountry(first)
       })
       .catch(console.error)
   }, [])

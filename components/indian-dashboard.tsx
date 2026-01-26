@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { BACKEND_URL } from "@/lib/utils/api"
 
 /* ---------- Types ---------- */
 
@@ -40,7 +41,7 @@ export function IndiaPulseSection() {
   const [activeTab, setActiveTab] = useState<SignalType>("publications");
 
   useEffect(() => {
-    fetch("/api/india")
+    fetch(`${BACKEND_URL}/api/india`)
       .then((r) => r.json())
       .then(setData)
       .catch(() => setError("India pulse unavailable"));
