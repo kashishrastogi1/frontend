@@ -1,5 +1,5 @@
 "use client"
-
+import { BACKEND_URL } from "@/lib/utils/api";
 import { useEffect, useMemo, useState } from "react"
 import { VisualizationArea } from "@/components/visualization-area"
 import { KnowledgeGraph } from "@/components/knowledge-graph"
@@ -18,27 +18,41 @@ export default function CompareDashboardContent({ tech }: { tech: string }) {
    // const scrollY = window.scrollY   // ✅ ADD THIS
 
     async function load() {
-        try {
-        let res = await fetch(`/api/tech/${tech}`)
+  if (!tech || tech === "undefined") return
 
-        if (res.status === 404) {
-            await fetch(`/api/tech/${tech}/run`, { method: "POST" })
-            res = await fetch(`/api/tech/${tech}`)
-        }
+  try {
+    const res = await fetch(
+      `${BACKEND_URL}/api/technology/${tech}`
+    )
 
-        const json = await res.json()
-
-        if (!cancelled) {
-            setData(json.dashboard ?? json.data ?? json)
-            setKg(json.knowledge_graph ?? null)
-
-            // ✅ RESTORE SCROLL POSITION
-            requestAnimationFrame(() => {
-            window.scrollTo({ top: scrollY })
-            })
-        }
-        } catch {}
+    if (!res.ok) {
+      throw new Error("Technology data not available")
     }
+
+    const text = await res.text()
+
+    // Prevent HTML / proxy errors from crashing JSON.parse
+    if (text.startsWith("<")) {
+      throw new Error("Invalid response")
+    }
+
+    const json = JSON.parse(text)
+
+    if (!cancelled) {
+      setData(json.dashboard ?? json.data ?? json)
+      setKg(json.knowledge_graph ?? null)
+
+      // restore scroll
+      requestAnimationFrame(() => {
+        window.scrollTo({ top: scrollY })
+      })
+    }
+  } catch (err) {
+    console.error("❌ Load failed:", err)
+    // optional: setError state
+  }
+}
+
 
     load()
     return () => {
