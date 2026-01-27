@@ -33,20 +33,43 @@ export function KnowledgeGraph({
   const visibleNodes = useMemo(() => nodes.filter((n) => !n.hidden), [nodes])
   const visibleEdges = useMemo(() => edges.filter((e) => !e.hidden), [edges])
 
-  const graphData = useMemo(() => {
-    return {
-      nodes: visibleNodes.map((n) => ({
-        id: String(n.id),
-        type: n.type,
-        url: n.url,
-      })),
-      links: visibleEdges.map((e) => ({
-        source: String(e.source),
-        target: String(e.target),
-        relation: e.relation,
-      })),
-    }
-  }, [visibleNodes, visibleEdges])
+const graphData = useMemo(() => {
+  const norm = (v: any) =>
+    String(v ?? "")
+      .trim()
+      .toLowerCase()
+      .replace(/\s+/g, "_")
+
+  const nodeIds = new Set(
+    visibleNodes.map((n) => norm(n.id))
+  )
+
+  const cleanNodes = visibleNodes.map((n) => ({
+    id: norm(n.id),
+    type: n.type,
+    url: n.url,
+  }))
+
+  const cleanEdges = visibleEdges
+    .map((e) => ({
+      source: norm(e.source),
+      target: norm(e.target),
+      relation: e.relation,
+    }))
+    // 🔥 DROP ORPHAN EDGES
+    .filter(
+      (e) => nodeIds.has(e.source) && nodeIds.has(e.target)
+    )
+
+  console.log("GRAPH NODES:", cleanNodes.length)
+  console.log("GRAPH EDGES:", cleanEdges.length)
+
+  return {
+    nodes: cleanNodes,
+    links: cleanEdges,
+  }
+}, [visibleNodes, visibleEdges])
+
 
   // ✅ zoom after render
   useEffect(() => {
