@@ -30,72 +30,94 @@ export function KnowledgeGraph({
 }) {
   const fgRef = useRef<any>(null)
 
+  /* ---------------- VISIBLE DATA ---------------- */
   const visibleNodes = useMemo(() => nodes.filter((n) => !n.hidden), [nodes])
   const visibleEdges = useMemo(() => edges.filter((e) => !e.hidden), [edges])
 
-const graphData = useMemo(() => {
-  const norm = (v: any) =>
-    String(v ?? "")
-      .trim()
-      .toLowerCase()
-      .replace(/\s+/g, "_")
+  /* ---------------- GRAPH DATA ---------------- */
+  const graphData = useMemo(() => {
+    const norm = (v: any) =>
+      String(v ?? "")
+        .trim()
+        .toLowerCase()
+        .replace(/\s+/g, "_")
 
-  const nodeIds = new Set(
-    visibleNodes.map((n) => norm(n.id))
-  )
+    const nodeIds = new Set(visibleNodes.map((n) => norm(n.id)))
 
-  const cleanNodes = visibleNodes.map((n) => ({
-    id: norm(n.id),
-    type: n.type,
-    url: n.url,
-  }))
+    const cleanNodes = visibleNodes.map((n) => {
+      const id = norm(n.id)
+      const isTech = n.type.toLowerCase() === "technology"
 
-  const cleanEdges = visibleEdges
-    .map((e) => ({
-      source: norm(e.source),
-      target: norm(e.target),
-      relation: e.relation,
-    }))
-    // 🔥 DROP ORPHAN EDGES
-    .filter(
-      (e) => nodeIds.has(e.source) && nodeIds.has(e.target)
-    )
+      return {
+        id,
+        type: n.type,
+        url: n.url,
 
-  console.log("GRAPH NODES:", cleanNodes.length)
-  console.log("GRAPH EDGES:", cleanEdges.length)
+        // 🔥 PIN CENTRAL TECHNOLOGY NODE
+        fx: isTech ? 0 : undefined,
+        fy: isTech ? 0 : undefined,
+      }
+    })
 
-  return {
-    nodes: cleanNodes,
-    links: cleanEdges,
-  }
-}, [visibleNodes, visibleEdges])
+    const cleanEdges = visibleEdges
+      .map((e) => ({
+        source: norm(e.source),
+        target: norm(e.target),
+        relation: e.relation,
+      }))
+      .filter((e) => nodeIds.has(e.source) && nodeIds.has(e.target))
 
+    return {
+      nodes: cleanNodes,
+      links: cleanEdges,
+    }
+  }, [visibleNodes, visibleEdges])
 
-  // ✅ zoom after render
+  /* ---------------- PHYSICS CONFIG ---------------- */
+  useEffect(() => {
+    if (!fgRef.current) return
+
+    // Repulsion force (controls scatter)
+    fgRef.current.d3Force("charge")?.strength(-120)
+
+    // Link distance control
+    fgRef.current.d3Force("link")?.distance(80)
+  }, [graphData])
+
+  /* ---------------- AUTO FIT ---------------- */
   useEffect(() => {
     if (!fgRef.current) return
     const t = setTimeout(() => {
-      fgRef.current.zoomToFit(500, 120)
-    }, 400)
+      fgRef.current.zoomToFit(600, 140)
+    }, 500)
     return () => clearTimeout(t)
   }, [graphData])
-console.log("NODES:", graphData.nodes.length)
-console.log("EDGES:", graphData.links.length)
-console.log("SAMPLE NODE:", graphData.nodes[0])
-console.log("SAMPLE EDGE:", graphData.links[0])
+
+  /* ---------------- RENDER ---------------- */
   return (
     <div className="h-[520px] w-full rounded-lg border bg-background overflow-hidden">
       <ForceGraph2D
         ref={fgRef}
         graphData={graphData}
+
         nodeAutoColorBy="type"
         nodeRelSize={6}
+
+        d3VelocityDecay={0.35}
+        d3AlphaDecay={0.02}
+
         nodeLabel={(n: any) => `${n.id} (${n.type})`}
         linkLabel={(l: any) => l.relation}
         linkDirectionalArrowLength={4}
         linkDirectionalArrowRelPos={1}
         linkColor={() => "#9ca3af"}
-        cooldownTicks={200}
+
+        cooldownTicks={250}
+
+        onEngineStop={() => {
+          fgRef.current?.zoomToFit(600, 140)
+        }}
+
         onNodeClick={(node: any) => {
           if (node.url) window.open(node.url, "_blank")
         }}
