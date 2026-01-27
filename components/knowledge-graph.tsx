@@ -1,7 +1,7 @@
 "use client"
 
 import dynamic from "next/dynamic"
-import { useEffect, useMemo, useRef } from "react"
+import { useMemo, useRef } from "react"
 
 const ForceGraph2D = dynamic(() => import("react-force-graph-2d"), {
   ssr: false,
@@ -30,25 +30,41 @@ export function KnowledgeGraph({
 }) {
   const fgRef = useRef<any>(null)
 
+  // ✅ visible nodes
   const visibleNodes = useMemo(() => nodes.filter((n) => !n.hidden), [nodes])
+
+  // ✅ visible edges
   const visibleEdges = useMemo(() => edges.filter((e) => !e.hidden), [edges])
 
-  const graphData = useMemo(
-    () => ({
-      nodes: visibleNodes.map((n) => ({ ...n })), // fresh copy but WITHOUT x/y edits
-      links: visibleEdges.map((e) => ({ ...e })),
-    }),
-    [visibleNodes, visibleEdges]
-  )
+  // ✅ Map for ID -> node (important)
+  const nodeMap = useMemo(() => {
+    const m = new Map<string, KGNode>()
+    visibleNodes.forEach((n) => m.set(String(n.id), n))
+    return m
+  }, [visibleNodes])
 
-  // ✅ Zoom to fit ONCE after data changes
-  useEffect(() => {
-    if (!fgRef.current) return
-    const t = setTimeout(() => {
-      fgRef.current.zoomToFit(400, 80)
-    }, 300)
-    return () => clearTimeout(t)
-  }, [graphData])
+  // ✅ convert edges to OBJECT links so force-graph always connects
+  const objectLinks = useMemo(() => {
+    return visibleEdges
+      .map((e) => {
+        const s = nodeMap.get(String(e.source))
+        const t = nodeMap.get(String(e.target))
+        if (!s || !t) return null
+        return {
+          source: s,
+          target: t,
+          relation: e.relation,
+        }
+      })
+      .filter(Boolean) as any[]
+  }, [visibleEdges, nodeMap])
+
+  const graphData = useMemo(() => {
+    return {
+      nodes: visibleNodes.map((n) => ({ ...n })),
+      links: objectLinks,
+    }
+  }, [visibleNodes, objectLinks])
 
   return (
     <div className="h-[520px] w-full rounded-lg border bg-background overflow-hidden">
@@ -62,7 +78,13 @@ export function KnowledgeGraph({
         linkDirectionalArrowLength={4}
         linkDirectionalArrowRelPos={1}
         linkColor={() => "#9ca3af"}
-        cooldownTicks={120}
+        cooldownTicks={200}
+
+        // ✅ zoom only when simulation finishes (BEST)
+        onEngineStop={() => {
+          fgRef.current?.zoomToFit(500, 120)
+        }}
+
         onNodeClick={(node: any) => {
           if (node.url) window.open(node.url, "_blank")
         }}
