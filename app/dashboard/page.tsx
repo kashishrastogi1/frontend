@@ -65,13 +65,11 @@ function DashboardContent() {
 
         const json = await res.json();
 
-        // ⏳ ML is running
         if (json.status === "processing") {
           if (!cancelled) {
             setIsProcessing(true);
           }
 
-          // optional polling
           setTimeout(() => {
             if (!cancelled) loadTech();
           }, 5000);
@@ -79,7 +77,6 @@ function DashboardContent() {
           return;
         }
 
-        // ✅ Data ready
         if (!cancelled) {
           setIsProcessing(false);
           setData(json.dashboard);
@@ -199,17 +196,93 @@ function DashboardContent() {
               }
             />
 
-            {filteredKG && (
+            {/* Knowledge Graph */}
+            {kg && kg.nodes?.length > 0 && (
               <div className="mt-6 rounded-xl border bg-card p-4">
-                <h2 className="text-sm font-semibold mb-3">
-                  Knowledge Graph
-                </h2>
-                <div className="h-[420px] w-full overflow-hidden rounded-md border">
-                  <KnowledgeGraph
-                    nodes={filteredKG.nodes}
-                    edges={filteredKG.edges}
-                  />
+                <div className="flex items-center justify-between mb-3">
+                  <h2 className="text-sm font-semibold">Knowledge Graph</h2>
+                  <button
+                    onClick={() => setShowKG(!showKG)}
+                    className="px-3 py-1.5 text-xs rounded-md border bg-background hover:bg-muted transition"
+                  >
+                    {showKG ? "Hide Graph" : "Show Graph"}
+                  </button>
                 </div>
+
+                {showKG && (
+                  <>
+                    <div className="flex flex-wrap gap-4 mb-3">
+                      <LegendItem color="bg-sky-300" label="Technology" />
+                      <LegendItem color="bg-green-500" label="Company" />
+                      <LegendItem color="bg-blue-600" label="Patent" />
+                      <LegendItem color="bg-green-200" label="Paper" />
+                      <LegendItem color="bg-pink-300" label="Country" />
+                    </div>
+
+                    <div className="mb-4 space-y-3 rounded-md border bg-muted/30 p-3">
+                      <div className="flex flex-wrap gap-4 text-xs">
+                        {Object.entries(kgFilters.nodeTypes).map(
+                          ([key, value]) => (
+                            <label
+                              key={key}
+                              className="flex items-center gap-1 capitalize"
+                            >
+                              <input
+                                type="checkbox"
+                                checked={value}
+                                onChange={(e) =>
+                                  setKgFilters((f) => ({
+                                    ...f,
+                                    nodeTypes: {
+                                      ...f.nodeTypes,
+                                      [key]: e.target.checked,
+                                    },
+                                  }))
+                                }
+                              />
+                              {key}
+                            </label>
+                          )
+                        )}
+                      </div>
+
+                      <div className="flex flex-wrap gap-4 text-xs">
+                        {Object.entries(kgFilters.relations).map(
+                          ([key, value]) => (
+                            <label
+                              key={key}
+                              className="flex items-center gap-1"
+                            >
+                              <input
+                                type="checkbox"
+                                checked={value}
+                                onChange={(e) =>
+                                  setKgFilters((f) => ({
+                                    ...f,
+                                    relations: {
+                                      ...f.relations,
+                                      [key]: e.target.checked,
+                                    },
+                                  }))
+                                }
+                              />
+                              {key.replace("_", " ")}
+                            </label>
+                          )
+                        )}
+                      </div>
+                    </div>
+
+                    <div className="h-[420px] w-full overflow-hidden rounded-md border">
+                      {filteredKG && (
+                        <KnowledgeGraph
+                          nodes={filteredKG.nodes}
+                          edges={filteredKG.edges}
+                        />
+                      )}
+                    </div>
+                  </>
+                )}
               </div>
             )}
           </div>
