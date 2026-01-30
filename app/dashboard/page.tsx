@@ -199,7 +199,7 @@ function DashboardContent() {
             {kg && kg.nodes?.length > 0 && (
               <div className="mt-6 rounded-xl border bg-card p-4">
                 <div className="flex items-center justify-between mb-3">
-                  <h2 className="text-sm font-semibold">Knowledge Graph</h2>
+                  <h2 className="text-base font-semibold">Knowledge Graph</h2>
                   <button
                     onClick={() => setShowKG(!showKG)}
                     className="px-3 py-1.5 text-xs rounded-md border bg-background hover:bg-muted transition"
@@ -208,8 +208,8 @@ function DashboardContent() {
                   </button>
                 </div>
                 <p className="text-xs text-muted-foreground mb-3">
-                Connects fragmented data into an intelligent network of relationships,
-                helping users understand context and hidden patterns.
+                Acts as the brain of the platform, linking data across domains.
+                It allows users to explore context, relationships, and trends in one place.
                 </p>
 
                 {showKG && (
