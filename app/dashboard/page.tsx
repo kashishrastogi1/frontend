@@ -177,9 +177,20 @@ function DashboardContent() {
           <ThemeToggle />
         </div>
       </header>
-
+      
       <div className="mx-auto max-w-7xl px-4 py-8 space-y-6">
         <DashboardHeader techName={decodeURIComponent(techName)} />
+        {filteredData.overview?.text && (
+  <div className="rounded-xl border bg-card p-4">
+    <h2 className="text-base font-semibold mb-2">
+      Technology Overview
+    </h2>
+    <p className="text-sm text-muted-foreground leading-relaxed whitespace-pre-line">
+      {filteredData.overview.text}
+    </p>
+  </div>
+)}
+
         <KeyInsightsCards insights={filteredData.summary} />
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
