@@ -207,11 +207,11 @@ function DashboardContent() {
                     {showKG ? "Hide Graph" : "Show Graph"}
                   </button>
                 </div>
-                <p className="text-xs text-muted-foreground mb-3">
+                <p className="text-xs text-muted-foreground mb-5">
                 Acts as the brain of the platform, linking data across domains.
                 It allows users to explore context, relationships, and trends in one place.
                 </p>
-
+                 
                 {showKG && (
                   <>
                     <div className="flex flex-wrap gap-4 mb-3">
