@@ -161,6 +161,110 @@ function normalizeMarketDistribution(dataMap: TechDataMap) {
 
   return result
 }
+/* ================= COMPARATIVE HELPERS ================= */
+
+// ---- Patent signal ----
+function getPatentSignal(data: any) {
+  const timeline = data?.dashboard?.patent_timeline ?? []
+  if (timeline.length === 0) return { recent: 0, growth: 0 }
+
+  const last = timeline[timeline.length - 1]?.count ?? 0
+  const prev = timeline[timeline.length - 2]?.count ?? 0
+  const growth = prev > 0 ? (last - prev) / prev : last
+
+  return { recent: last, growth }
+}
+
+// ---- Adoption signal ----
+function getAdoptionSignal(data: any) {
+  const curve = data?.dashboard?.trend_curve ?? []
+  if (curve.length === 0) return { latest: 0, slope: 0 }
+
+  const first =
+    typeof curve[0] === "number" ? curve[0] : curve[0]?.value ?? 0
+  const last =
+    typeof curve[curve.length - 1] === "number"
+      ? curve[curve.length - 1]
+      : curve[curve.length - 1]?.value ?? 0
+
+  return { latest: last, slope: last - first }
+}
+
+// ---- Investment signal ----
+function getInvestmentSignal(data: any) {
+  const values =
+    data?.dashboard?.country_investment?.values ??
+    data?.dashboard?.investment_index?.values ??
+    {}
+
+  const nums = Object.values(values).map(Number).filter(v => !isNaN(v))
+  return {
+    total: nums.reduce((a, b) => a + b, 0),
+    breadth: nums.length,
+  }
+}
+
+// ---- Market size signal ----
+function getMarketSizeBillion(data: any) {
+  const reports =
+    data?.dashboard?.entities?.market_reports ??
+    data?.dashboard?.market_reports ??
+    []
+
+  let max = 0
+  for (const r of reports) {
+    const raw = r.market_size
+    if (!raw) continue
+    const s = raw.toLowerCase().replace(/[$,]/g, "")
+    const num = parseFloat(s)
+    if (isNaN(num)) continue
+
+    if (s.includes("trillion")) max = Math.max(max, num * 1000)
+    else if (s.includes("billion")) max = Math.max(max, num)
+    else if (s.includes("million")) max = Math.max(max, num / 1000)
+  }
+  return max
+}
+function generateComparativeParagraphs(dataMap: TechDataMap, techs: string[]) {
+  if (techs.length < 2) return null
+
+  const entries = techs
+    .map((tech) => {
+      const data = dataMap[tech]
+      if (!data) return null
+
+      const patent = getPatentSignal(data)
+      const adoption = getAdoptionSignal(data)
+      const investment = getInvestmentSignal(data)
+      const market = getMarketSizeBillion(data)
+
+      return {
+        tech,
+        patent,
+        adoption,
+        investment,
+        market,
+      }
+    })
+    .filter(Boolean) as any[]
+
+  if (entries.length < 2) return null
+
+  const top3 = (arr: any[], key: (e: any) => number) =>
+    [...arr].sort((a, b) => key(b) - key(a)).slice(0, 3)
+
+  const p = top3(entries, e => e.patent.recent)
+  const a = top3(entries, e => e.adoption.latest)
+  const i = top3(entries, e => e.investment.total)
+  const m = top3(entries, e => e.market)
+
+  return {
+    patent: `In terms of patent activity, ${p[0].tech} leads with the highest recent filing volume, indicating strong innovation momentum. ${p[1]?.tech} follows with substantial patent presence but trails the leader in recent activity, while ${p[2]?.tech} ranks next with comparatively moderate patenting intensity.`,
+    adoption: `Looking at adoption trends, ${a[0].tech} demonstrates the strongest position, driven by the highest current adoption levels and consistent growth. ${a[1]?.tech} follows closely with solid adoption but slower recent acceleration, whereas ${a[2]?.tech} shows more limited uptake across use cases.`,
+    investment: `From an investment perspective, ${i[0].tech} attracts the largest cumulative investment, supported by broad geographic participation. ${i[1]?.tech} remains a strong second with significant funding but a narrower investment footprint, while ${i[2]?.tech} receives comparatively lower overall investment.`,
+    market: `In terms of market size, ${m[0].tech} dominates with the largest estimated market, reflecting wide commercial adoption. ${m[1]?.tech} follows with a substantial but smaller market presence, and ${m[2]?.tech} occupies a more niche position with lower overall market scale.`,
+  }
+}
 
 /* ================= PAGE ================= */
 
@@ -263,7 +367,9 @@ console.log("INVESTMENT RAW:", Object.keys(dataMap).map(t => ({
     if (inputs.length === 0) return null
     return buildUnifiedKG(inputs)
   }, [dataMap])
-
+  const comparativeParagraphs = useMemo(() => {
+    return generateComparativeParagraphs(dataMap, techs)
+  }, [dataMap, techs])
   const hasMarketPoints =
     metric === "market" &&
     Array.isArray(chartData) &&
@@ -369,6 +475,27 @@ console.log("INVESTMENT RAW:", Object.keys(dataMap).map(t => ({
             ))}
           </div>
         </div>
+        {comparativeParagraphs && (
+  <div className="rounded-lg border bg-card p-4 space-y-4">
+    <h2 className="text-base font-semibold">Comparative Intelligence</h2>
+
+    <p className="text-sm text-muted-foreground leading-relaxed">
+      {comparativeParagraphs.patent}
+    </p>
+
+    <p className="text-sm text-muted-foreground leading-relaxed">
+      {comparativeParagraphs.adoption}
+    </p>
+
+    <p className="text-sm text-muted-foreground leading-relaxed">
+      {comparativeParagraphs.investment}
+    </p>
+
+    <p className="text-sm text-muted-foreground leading-relaxed">
+      {comparativeParagraphs.market}
+    </p>
+  </div>
+)}
 
         {metric === "kg" ? (
           unifiedKG ? (
