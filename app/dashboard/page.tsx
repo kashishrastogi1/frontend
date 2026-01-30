@@ -207,6 +207,10 @@ function DashboardContent() {
                     {showKG ? "Hide Graph" : "Show Graph"}
                   </button>
                 </div>
+                <p className="text-xs text-muted-foreground mb-3">
+                Connects fragmented data into an intelligent network of relationships,
+                helping users understand context and hidden patterns.
+                </p>
 
                 {showKG && (
                   <>
