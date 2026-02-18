@@ -9,6 +9,8 @@ import {
 } from "@/components/ui/card"
 import { DashboardFilters } from "@/lib/filters/types"
 import * as Slider from "@radix-ui/react-slider"
+import PublicationList from "@/components/publication-list"
+import InsightsPanel from "@/components/insights-panel"
 
 import {
   Building2,
@@ -16,6 +18,7 @@ import {
   AlertTriangle,
   TrendingUp,
 } from "lucide-react"
+import { useState } from "react"
 
 /* ---------------- TYPES ---------------- */
 
@@ -90,6 +93,8 @@ export function SidebarPanels({
         return <AlertTriangle className="w-4 h-4 text-yellow-500" />
     }
   }
+  const [selectedPaper, setSelectedPaper] = useState<any>(null)
+
 
   return (
     <div className="space-y-4">
@@ -250,39 +255,29 @@ export function SidebarPanels({
           </CardDescription>
         </CardHeader>
 
-        <CardContent className="max-h-[260px] overflow-y-auto space-y-2 pr-1">
-          {publications.length === 0 && (
-            <p className="text-xs text-muted-foreground">
-              No publications available
-            </p>
-          )}
+        <CardContent className="space-y-3">
 
-          {publications.map((pub, i) => {
-            const extracted = extractLinkAndCleanTitle(pub.title)
-            const link = pub.link || extracted.link
-            const title = extracted.cleanTitle || pub.title
+  {publications.length === 0 && (
+    <p className="text-xs text-muted-foreground">
+      No publications available
+    </p>
+  )}
 
-            return (
-              <div
-                key={i}
-                className="p-2 rounded-md border border-border/30 bg-secondary/30"
-              >
-                {link ? (
-                  <a
-                    href={link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-sm font-medium text-primary hover:underline"
-                  >
-                    {title}
-                  </a>
-                ) : (
-                  <p className="text-sm">{title}</p>
-                )}
-              </div>
-            )
-          })}
-        </CardContent>
+  {/* Publications Scroll Area */}
+  <div className="max-h-[220px] overflow-y-auto pr-1">
+    <PublicationList
+      papers={publications}
+      onSelect={setSelectedPaper}
+    />
+  </div>
+
+  {/* Insights Panel */}
+  <div className="max-h-[260px] overflow-y-auto">
+    <InsightsPanel paper={selectedPaper} />
+  </div>
+
+</CardContent>
+
       </Card>
 
       {/* ================= PATENTS ================= */}
